@@ -42,7 +42,11 @@ const Header = () => {
             {navMobile ? (
               <RiCloseFill className='text-white text-3xl cursor-pointer' />
             ) : (
-              <RiMenu4Fill className='text-white text-3xl cursor-pointer' />
+              <RiMenu4Fill
+                className={`${
+                  isActive ? 'text-black' : 'text-white'
+                } text-white text-3xl cursor-pointer`}
+              />
             )}
           </div>
           <NavMobile navMobile={navMobile} />
