@@ -11,7 +11,7 @@ export default function Home() {
           alt='Picture of the author'
         />
       </div>
-      <div className='h-[100px]'></div>
+      <div className='h-[100px] flex justify-center mt-10 '>COMMING SOON</div>
     </main>
   );
 }

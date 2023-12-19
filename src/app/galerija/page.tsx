@@ -1,6 +1,6 @@
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 
-export default function Contacts() {
+export default function Gallery() {
   return (
     <main className='pt-12 bg-black h-screen'>
       <MaxWidthWrapper>
