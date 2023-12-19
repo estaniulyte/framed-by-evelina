@@ -45,7 +45,7 @@ const Header = () => {
               <RiMenu4Fill
                 className={`${
                   isActive ? 'text-black' : 'text-white'
-                } text-white text-3xl cursor-pointer`}
+                }  text-3xl cursor-pointer`}
               />
             )}
           </div>
