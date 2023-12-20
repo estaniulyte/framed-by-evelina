@@ -53,6 +53,16 @@ export default function Home() {
             />
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div className='h-screen'>
+            <Image
+              className=' sm:m-auto w-full object-cover '
+              src='/profile4.jpg'
+              fill={true}
+              alt='Photoshot pictures'
+            />
+          </div>
+        </SwiperSlide>
       </Swiper>
       <div className='h-[100px] flex justify-center mt-10 '>COMMING SOON</div>
     </main>
