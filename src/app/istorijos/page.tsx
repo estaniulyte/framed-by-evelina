@@ -26,10 +26,10 @@ export default function Gallery() {
             alt='Photoshot pictures'
           />
           <div className='absolute top-3/4 left-1/2 lg:left-[18%] -translate-x-1/2 -translate-y-1/2 opacity-90 text-center md:text-left z-10'>
-            <p className='text-xl uppercase text-gray-300 lg:text-3xl pb-2 tracking-widest'>
+            <p className='text-xl uppercase text-gray-300 lg:text-3xl 3xl:text-4xl pb-2 tracking-widest'>
               Nuotraukos pilnos
             </p>
-            <h1 className='text-5xl font-semibold lg:text-6xl text-gray-200 uppercase tracking-widest font-serif'>
+            <h1 className='text-5xl font-semibold lg:text-6xl 3xl:text-7xl text-gray-200 uppercase tracking-widest font-serif'>
               Istorijų
             </h1>
           </div>

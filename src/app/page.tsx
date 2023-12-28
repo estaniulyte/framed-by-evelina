@@ -84,13 +84,13 @@ export default function Home() {
           <SwiperSlide>
             <div
               className='h-screen before:absolute
-    before:inset-0
-    before:block
-    before:bg-gradient-to-r
-    before:from-black
-    before:to-gray-900
-    before:opacity-40
-    before:z-[20]'
+                before:inset-0
+                before:block
+                before:bg-gradient-to-r
+                before:from-black
+                before:to-gray-900
+                before:opacity-40
+                before:z-[20]'
             >
               <Image
                 className=' sm:m-auto w-full object-cover '
@@ -112,11 +112,11 @@ export default function Home() {
     before:opacity-40
     before:z-[20]'
       >
-        <div className='absolute top-[80%] left-[4%] 3xl:top-[85%] opacity-80 z-30'>
-          <h1 className='text-5xl text-gray-100 uppercase tracking-widest font-semibold font-serif'>
+        <div className='absolute top-[80%] left-[4%] lg:top-[80%] 3xl:top-[86%] opacity-80 z-30'>
+          <h1 className='text-5xl 3xl:text-6xl text-gray-100 uppercase tracking-widest font-semibold font-serif'>
             Tavo istorija.
           </h1>
-          <div className='uppercase text-gray-200 text-2xl pt-3 tracking-wider'>
+          <div className='uppercase text-gray-200 text-2xl 3xl:text-3xl pt-3 tracking-wider'>
             Tikra. Asmeniška. Nuotaikinga.
           </div>
         </div>

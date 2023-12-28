@@ -22,13 +22,15 @@ export default function About() {
             className='w-full object-cover'
             src='/me.jpg'
             fill={true}
-            alt='Photoshot pictures'
+            alt='Photographer portrait - girl holding polaroid and smiling widely'
+            placeholder='blur'
+            blurDataURL='/me-small.jpg'
           />
-          <div className='absolute top-3/4 left-1/2 lg:left-[18%] -translate-x-1/2 -translate-y-1/2 opacity-90 text-center md:text-left z-10'>
-            <p className='text-2xl uppercase text-gray-300 lg:text-3xl pb-2 tracking-wider'>
-              Sveiki, aš
+          <div className='absolute top-[80%] lg:top-[30%] left-1/2 -translate-x-1/2 lg:-translate-x-0 lg:left-1/2 lg:right-[5%] opacity-90 text-center lg:text-left z-10'>
+            <p className='text-2xl lg:text-3xl 3xl:text-4xl uppercase text-gray-300  pb-2 tracking-wider lg:text-right'>
+              Sveiki atvykę, esu
             </p>
-            <h1 className='text-5xl font-semibold lg:text-6xl text-gray-200 uppercase tracking-widest font-serif'>
+            <h1 className='text-5xl font-semibold lg:text-6xl 3xl:text-7xl text-gray-200 uppercase tracking-widest text-right font-serif'>
               Evelina
             </h1>
           </div>
