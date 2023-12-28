@@ -9,20 +9,20 @@ export default function Gallery() {
   return (
     <main className='pt-4 w-full'>
       <MaxWidthWrapper>
-        <div className='h-screen'>
+        <div className='h-screen w-full'>
           <Image
-            className='w-full object-cover '
+            className='w-full object-cover'
             src='/glory.jpg'
             fill={true}
             alt='Photoshot pictures'
           />
-          <div className='invisible md:visible absolute top-[80%] z-30 left-[4%] 3xl:top-[85%] opacity-90'>
-            <h1 className='lg:text-5xl text-gray-300 uppercase tracking-wider font-serif'>
-              Nuotraukos
+          <div className='absolute top-[70%] md:top-[80%] z-10 left-[18%] lg:left-[4%] 3xl:top-[85%] opacity-90 text-center md:text-left'>
+            <p className='text-2xl uppercase text-gray-300 lg:text-3xl pb-2 tracking-wider'>
+              Nuotraukos pilnos
+            </p>
+            <h1 className='text-5xl font-semibold lg:text-6xl text-gray-200 uppercase tracking-widest font-serif'>
+              Istorijų
             </h1>
-            <div className='uppercase text-gray-200 lg:text-2xl pt-3 tracking-widest '>
-              Pilnos istorijų
-            </div>
           </div>
         </div>
         <p className='pb-5 text-center uppercase'>COMING SOON</p>
