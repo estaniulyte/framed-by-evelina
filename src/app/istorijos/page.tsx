@@ -16,7 +16,7 @@ export default function Gallery() {
             fill={true}
             alt='Photoshot pictures'
           />
-          <div className='absolute top-[70%] md:top-[80%] z-10 left-[18%] lg:left-[4%] 3xl:top-[85%] opacity-90 text-center md:text-left'>
+          <div className='absolute top-3/4 left-1/2 lg:left-[18%] -translate-x-1/2 -translate-y-1/2 opacity-90 text-center md:text-left'>
             <p className='text-2xl uppercase text-gray-300 lg:text-3xl pb-2 tracking-wider'>
               Nuotraukos pilnos
             </p>

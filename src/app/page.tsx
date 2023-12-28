@@ -23,6 +23,14 @@ export default function Home() {
         />
       </div> */}
       <div className='block lg:hidden'>
+        <div className='absolute z-10 top-[70%] md:top-[80%] left-[4%] lg:left-[4%] 3xl:top-[85%] opacity-70'>
+          <h1 className='text-5xl text-gray-100 uppercase tracking-widest font-semibold font-serif'>
+            Tavo istorija.
+          </h1>
+          <div className='uppercase text-gray-200 text-xl pt-3 tracking-wider'>
+            Tikra. Asmeniška. Nuotaikinga.
+          </div>
+        </div>
         <Swiper
           spaceBetween={0}
           effect={'fade'}
@@ -69,11 +77,11 @@ export default function Home() {
       </div>
       <div className='hidden lg:block'>
         <div className='absolute z-10 top-[80%] left-[4%] 3xl:top-[85%] opacity-60'>
-          <h1 className='text-5xl text-gray-100 uppercase tracking-widest font-serif font-semibold'>
+          <h1 className='text-5xl text-gray-100 uppercase tracking-widest font-semibold font-serif'>
             Tavo istorija.
           </h1>
-          <div className='uppercase text-gray-200 text-3xl pt-3 tracking-wider'>
-            Tikra. Asmeniška. Nuoširdi.
+          <div className='uppercase text-gray-200 text-2xl pt-3 tracking-wider'>
+            Tikra. Asmeniška. Nuotaikinga.
           </div>
         </div>
         <Swiper
