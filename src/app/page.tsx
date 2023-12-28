@@ -22,8 +22,17 @@ export default function Home() {
           alt='Photoshot pictures'
         />
       </div> */}
-      <div className='block lg:hidden'>
-        <div className='absolute z-10 top-[70%] md:top-[80%] left-[4%] lg:left-[4%] 3xl:top-[85%] opacity-70'>
+      <div
+        className='block lg:hidden before:absolute
+    before:inset-0
+    before:block
+    before:bg-gradient-to-r
+    before:from-black
+    before:to-gray-900
+    before:opacity-40
+    before:z-[20]'
+      >
+        <div className='absolute z-20 top-[70%] md:top-[80%] left-[4%] lg:left-[4%] 3xl:top-[85%] opacity-80'>
           <h1 className='text-5xl text-gray-100 uppercase tracking-widest font-semibold font-serif'>
             Tavo istorija.
           </h1>
@@ -75,8 +84,17 @@ export default function Home() {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className='hidden lg:block'>
-        <div className='absolute z-10 top-[80%] left-[4%] 3xl:top-[85%] opacity-60'>
+      <div
+        className='hidden lg:block before:absolute
+    before:inset-0
+    before:block
+    before:bg-gradient-to-r
+    before:from-black
+    before:to-gray-900
+    before:opacity-40
+    before:z-[20]'
+      >
+        <div className='absolute top-[80%] left-[4%] 3xl:top-[85%] opacity-80 z-30'>
           <h1 className='text-5xl text-gray-100 uppercase tracking-widest font-semibold font-serif'>
             Tavo istorija.
           </h1>
