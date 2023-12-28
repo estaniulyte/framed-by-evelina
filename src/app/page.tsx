@@ -22,16 +22,7 @@ export default function Home() {
           alt='Photoshot pictures'
         />
       </div> */}
-      <div
-        className='block lg:hidden overflow-hidden before:absolute
-    before:inset-0
-    before:block
-    before:bg-gradient-to-r
-    before:from-black
-    before:to-gray-900
-    before:opacity-40
-    before:z-[20]'
-      >
+      <div className='block lg:hidden '>
         <div className='absolute z-20 top-[70%] md:top-[80%] left-[4%] lg:left-[4%] 3xl:top-[85%] opacity-80'>
           <h1 className='text-5xl text-gray-100 uppercase tracking-widest font-semibold font-serif'>
             Tavo istorija.
@@ -53,7 +44,16 @@ export default function Home() {
           className='mySwiper'
         >
           <SwiperSlide>
-            <div className='h-screen'>
+            <div
+              className='h-screen before:absolute
+    before:inset-0
+    before:block
+    before:bg-gradient-to-r
+    before:from-black
+    before:to-gray-900
+    before:opacity-40
+    before:z-[20]'
+            >
               <Image
                 className=' sm:m-auto w-full object-cover '
                 src='/book-mobile.jpg'
@@ -63,7 +63,16 @@ export default function Home() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className='h-screen'>
+            <div
+              className='h-screen before:absolute
+    before:inset-0
+    before:block
+    before:bg-gradient-to-r
+    before:from-black
+    before:to-gray-900
+    before:opacity-40
+    before:z-[20]'
+            >
               <Image
                 className=' sm:m-auto w-full object-cover '
                 src='/couple-mobile.jpg'
@@ -73,7 +82,16 @@ export default function Home() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className='h-screen'>
+            <div
+              className='h-screen before:absolute
+    before:inset-0
+    before:block
+    before:bg-gradient-to-r
+    before:from-black
+    before:to-gray-900
+    before:opacity-40
+    before:z-[20]'
+            >
               <Image
                 className=' sm:m-auto w-full object-cover '
                 src='/mocas-mobile.jpg'
