@@ -23,7 +23,7 @@ export default function Home() {
         />
       </div> */}
       <div
-        className='block lg:hidden before:absolute
+        className='block lg:hidden overflow-hidden before:absolute
     before:inset-0
     before:block
     before:bg-gradient-to-r
