@@ -1,5 +1,7 @@
 import type { Config } from 'tailwindcss';
 
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -27,6 +29,12 @@ const config: Config = {
           800: '#00174f',
           900: '#00081f',
         },
+      },
+      screens: {
+        '3xl': '1600px',
+      },
+      fontFamily: {
+        lora: ['Lora', 'sans-serif'],
       },
     },
   },

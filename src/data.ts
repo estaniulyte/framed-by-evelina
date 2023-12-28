@@ -1,15 +1,15 @@
 export const navItems = [
   {
-    name: 'Apie',
+    name: 'Istorijos',
+    href: '/istorijos',
+  },
+  {
+    name: 'Fotosesijos',
+    href: '/fotosesijos',
+  },
+  {
+    name: 'Apie mane',
     href: '/apie',
-  },
-  {
-    name: 'Galerija',
-    href: '/galerija',
-  },
-  {
-    name: 'Paslaugos',
-    href: '/paslaugos',
   },
   {
     name: 'Kontaktai',

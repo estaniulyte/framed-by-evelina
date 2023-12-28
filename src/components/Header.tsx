@@ -25,15 +25,22 @@ const Header = () => {
         isActive
           ? 'bg-neutral-100 py-[16px]'
           : 'bg-transparent py-[20px] text-white sm:mt-10'
-      } fixed z-30 transition-all duration-300 left-0 right-0 mb-5`}
+      }
+       fixed z-30 transition-all duration-300 left-0 right-0 mb-5`}
     >
       <MaxWidthWrapper>
         <span className='mx-auto left-0 right-0 flex justify-between items-center '>
           <a href='/'>
             {/* <img src={logo} alt='Logo' className='w-[55px]' /> */}
-            <h1 className='flex uppercase font-bold'>FRAMED.BY.EVELINA</h1>
+            <h1
+              className={`${
+                isActive ? '' : 'xl:text-2xl'
+              }  flex uppercase font-bold `}
+            >
+              FRAMED.BY.EVELINA
+            </h1>
           </a>
-          <Nav />
+          <Nav isActive={isActive} />
 
           <div
             onClick={() => setNavMobile(!navMobile)}

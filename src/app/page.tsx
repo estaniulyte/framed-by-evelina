@@ -68,13 +68,21 @@ export default function Home() {
         </Swiper>
       </div>
       <div className='hidden lg:block'>
+        <div className=' absolute z-50 top-[80%] left-[4%] 3xl:top-[85%] opacity-60'>
+          <h1 className='text-5xl text-gray-300 uppercase tracking-wider font-serif'>
+            Tavo istorija.
+          </h1>
+          <div className='uppercase text-gray-200 text-2xl pt-3 tracking-widest '>
+            Tikra. Asmeniška. Nuoširdi.
+          </div>
+        </div>
         <Swiper
           spaceBetween={0}
           effect={'fade'}
           loop={true}
           centeredSlides={true}
           autoplay={{
-            delay: 2500,
+            delay: 2000,
             disableOnInteraction: false,
           }}
           modules={[EffectFade, Autoplay]}
