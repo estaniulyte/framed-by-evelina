@@ -28,7 +28,7 @@ export default function Home() {
             Tavo istorija.
           </h1>
           <div className='uppercase text-gray-200 text-xl pt-3 tracking-wider'>
-            Tikra. Asmeniška. Nuotaikinga.
+            Tikra. Asmeniška. Nuoširdi.
           </div>
         </div>
         <Swiper
@@ -117,7 +117,7 @@ export default function Home() {
             Tavo istorija.
           </h1>
           <div className='uppercase text-gray-200 text-2xl 3xl:text-3xl pt-3 tracking-wider'>
-            Tikra. Asmeniška. Nuotaikinga.
+            Tikra. Asmeniška. Nuoširdi.
           </div>
         </div>
         <Swiper
