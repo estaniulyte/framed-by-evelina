@@ -136,7 +136,7 @@ export default function Home() {
             <div className='h-screen'>
               <Image
                 className=' sm:m-auto w-full object-cover '
-                src='/profile.jpg'
+                src='/carousel.jpg'
                 fill={true}
                 alt='Photoshot pictures'
               />
@@ -146,7 +146,7 @@ export default function Home() {
             <div className='h-screen'>
               <Image
                 className=' sm:m-auto w-full object-cover '
-                src='/profile3.jpg'
+                src='/carousel2.jpg'
                 fill={true}
                 alt='Photoshot pictures'
               />
@@ -156,7 +156,7 @@ export default function Home() {
             <div className='h-screen'>
               <Image
                 className=' sm:m-auto w-full object-cover '
-                src='/profile4.jpg'
+                src='/carousel3.jpg'
                 fill={true}
                 alt='Photoshot pictures'
               />
