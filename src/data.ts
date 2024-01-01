@@ -16,3 +16,105 @@ export const navItems = [
     href: '/kontaktai',
   },
 ];
+
+export const photoshootList = [
+  {
+    name: 'Vaiva & Mikis',
+    slug: 'vaiva-mikis',
+    description: 'Vaivos ir Mikio šunybės',
+    picture:
+      'https://drive.google.com/uc?export=download&id=1yeca-ww_4SP7FnHSqUn5RhdCBwVa4Sw0',
+    types: ['personal'],
+    pictures: [
+      {
+        href: '',
+        alt: '',
+      },
+    ],
+  },
+  {
+    name: 'Karolina & Mantas',
+    slug: 'karolina-mantas-rotonda',
+    description: 'Žieminis pasivaiksčiojimas ir meškučių medžioklė',
+    picture:
+      'https://drive.google.com/uc?export=download&id=1dyTME0m3jl7O59gL_jMER0-9a1fw9k53',
+    types: ['couple'],
+    pictures: [
+      {
+        href: '',
+        alt: '',
+      },
+    ],
+  },
+  {
+    name: 'Young',
+    slug: 'young-kauno-eglute',
+    description: 'Young ir Kauno eglutė',
+    picture:
+      'https://drive.google.com/uc?export=download&id=1YZZ-luI9q_NQey0H_f2NgJOTFFRM5eyL',
+    types: ['personal'],
+    pictures: [
+      {
+        href: '',
+        alt: '',
+      },
+    ],
+  },
+  {
+    name: 'Ernestas',
+    slug: 'linkedin-photoshoot',
+    description: 'Kai reikia atsinaujint LinkedIn nuotrauką',
+    picture:
+      'https://drive.google.com/uc?export=download&id=18ScN1aVFDfH4UwTaSYNGqXaoBacqHczv',
+    types: ['personal'],
+    pictures: [
+      {
+        href: '',
+        alt: '',
+      },
+    ],
+  },
+  {
+    name: 'Booknieta',
+    slug: 'booknieta-photoshoot',
+    description: 'Dominika ir jos knygų karalystė',
+    picture:
+      'https://drive.google.com/uc?export=download&id=1uCi7KrsGRFs4Q_OKy9ptT_zamU33n4CI',
+    types: ['personal'],
+    pictures: [
+      {
+        href: '',
+        alt: '',
+      },
+    ],
+  },
+  {
+    name: 'Kvapni Akimirka',
+    slug: 'kvapni-akimirka',
+    description:
+      'Kvapni akimirka - nišiniai kvepalai jaukiuose automaizeriuose',
+    picture:
+      'https://drive.google.com/uc?export=download&id=1zFA1kTSxuJdJzgyJHiQV0FVcMXtE7NDM',
+    types: ['product'],
+    pictures: [
+      {
+        href: '',
+        alt: '',
+      },
+    ],
+  },
+  {
+    name: 'Glorija',
+    slug: 'glorijai-1',
+    description: 'Glorijos 1-asis tortadienis',
+    picture:
+      'https://drive.google.com/uc?export=download&id=1V72m07BxFnO38pj5YJW1UnAsAHadPoMj',
+    types: ['family'],
+    pictures: [
+      {
+        href: '',
+        alt: '',
+      },
+    ],
+  },
+];
