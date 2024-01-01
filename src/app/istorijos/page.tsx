@@ -4,6 +4,8 @@ import Image from 'next/image';
 
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { photoshootList } from '@/data';
+import PhotosessionGrid from '@/components/PhotosessionGrid';
 
 export default function Gallery() {
   return (
@@ -45,70 +47,36 @@ export default function Gallery() {
             <TabsTrigger value='products'>Produktai</TabsTrigger>
           </TabsList>
           <TabsContent value='all'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-y-7 gap-x-7'>
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-x-4 bg-slate-100'>
-                <div>
-                  <img
-                    className='w-full aspect-[5/6] object-cover'
-                    src='https://drive.google.com/uc?export=download&id=1dyTME0m3jl7O59gL_jMER0-9a1fw9k53'
-                  ></img>
-                </div>
-                <div className='w-[80%] py-8 md:py-0 text-center m-auto text-xl 3xl:text-3xl tracking-wider leading-7'>
-                  Žieminis pasivaiksčiojimas ir meškučių medžioklė
-                </div>
-              </div>
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-x-4 bg-slate-100'>
-                <div>
-                  <img
-                    className='w-full aspect-[5/6] object-cover'
-                    src='https://drive.google.com/uc?export=download&id=1YZZ-luI9q_NQey0H_f2NgJOTFFRM5eyL'
-                  ></img>
-                </div>
-                <div className='w-[80%] py-8 md:py-0 text-center m-auto text-xl 3xl:text-3xl tracking-wider leading-7'>
-                  Young ir Kauno eglutė
-                </div>
-              </div>
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-x-4 bg-slate-100'>
-                <div>
-                  <img
-                    className='w-full aspect-[5/6] object-cover'
-                    src='https://drive.google.com/uc?export=download&id=18ScN1aVFDfH4UwTaSYNGqXaoBacqHczv'
-                  ></img>
-                </div>
-                <div className='w-[80%] py-8 md:py-0 text-center m-auto text-xl 3xl:text-3xl tracking-wider leading-7'>
-                  Atsinaujint LinkedIn portretą
-                </div>
-              </div>
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-x-4 bg-slate-100'>
-                <div>
-                  <img
-                    className='w-full aspect-[5/6] object-cover'
-                    src='https://drive.google.com/uc?export=download&id=1uCi7KrsGRFs4Q_OKy9ptT_zamU33n4CI'
-                  ></img>
-                </div>
-                <div className='w-[80%] py-8 md:py-0 text-center m-auto text-xl 3xl:text-3xl tracking-wider leading-7'>
-                  {' '}
-                  Dominika ir jos knygų karalystė
-                </div>
-              </div>
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-x-4 bg-slate-100'>
-                <div>
-                  <img
-                    className='w-full aspect-[5/6] object-cover'
-                    src='https://drive.google.com/uc?export=download&id=1V72m07BxFnO38pj5YJW1UnAsAHadPoMj'
-                  ></img>
-                </div>
-                <div className='w-[80%] py-8 md:py-0 text-center m-auto text-xl 3xl:text-3xl tracking-wider leading-7'>
-                  {' '}
-                  Glorijos 1-asis gimtadieniukas
-                </div>
-              </div>
-            </div>
+            <PhotosessionGrid items={photoshootList} />
           </TabsContent>
-          <TabsContent value='couples'>Poros</TabsContent>
-          <TabsContent value='personal'>Asmenines</TabsContent>
-          <TabsContent value='family'>Seimos</TabsContent>
-          <TabsContent value='products'>Produktai</TabsContent>
+          <TabsContent value='couples'>
+            <PhotosessionGrid
+              items={photoshootList.filter((item) =>
+                item.types.includes('couple')
+              )}
+            />
+          </TabsContent>
+          <TabsContent value='personal'>
+            <PhotosessionGrid
+              items={photoshootList.filter((item) =>
+                item.types.includes('personal')
+              )}
+            />
+          </TabsContent>
+          <TabsContent value='family'>
+            <PhotosessionGrid
+              items={photoshootList.filter((item) =>
+                item.types.includes('family')
+              )}
+            />
+          </TabsContent>
+          <TabsContent value='products'>
+            <PhotosessionGrid
+              items={photoshootList.filter((item) =>
+                item.types.includes('product')
+              )}
+            />
+          </TabsContent>
         </Tabs>
         <p className='pb-5 text-center uppercase'>MORE COMING SOON</p>
       </MaxWidthWrapper>
