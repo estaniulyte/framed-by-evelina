@@ -19,6 +19,7 @@ export const navItems = [
 
 export const photoshootList = [
   {
+    id: 'gq56djg0',
     name: 'Vaiva & Mikis',
     slug: 'vaiva-mikis',
     description: 'Vaivos ir Mikio šunybės',
@@ -33,6 +34,7 @@ export const photoshootList = [
     ],
   },
   {
+    id: 'mmd4n2bl',
     name: 'Karolina & Mantas',
     slug: 'karolina-mantas-rotonda',
     description: 'Žieminis pasivaiksčiojimas ir meškučių medžioklė',
@@ -47,6 +49,7 @@ export const photoshootList = [
     ],
   },
   {
+    id: '8kadvnlh',
     name: 'Young',
     slug: 'young-kauno-eglute',
     description: 'Young ir Kauno eglutė',
@@ -61,6 +64,7 @@ export const photoshootList = [
     ],
   },
   {
+    id: 'ur7m375d',
     name: 'Ernestas',
     slug: 'linkedin-photoshoot',
     description: 'Kai reikia atsinaujint LinkedIn nuotrauką',
@@ -75,6 +79,7 @@ export const photoshootList = [
     ],
   },
   {
+    id: 'fp45cjfz',
     name: 'Booknieta',
     slug: 'booknieta-photoshoot',
     description: 'Dominika ir jos knygų karalystė',
@@ -89,6 +94,7 @@ export const photoshootList = [
     ],
   },
   {
+    id: 'an1ea3pv',
     name: 'Kvapni Akimirka',
     slug: 'kvapni-akimirka',
     description:
@@ -104,6 +110,7 @@ export const photoshootList = [
     ],
   },
   {
+    id: 'us8n486e',
     name: 'Glorija',
     slug: 'glorijai-1',
     description: 'Glorijos 1-asis tortadienis',
