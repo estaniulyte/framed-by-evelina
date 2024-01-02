@@ -24,7 +24,7 @@ const PhotosessionGrid = ({ items }: Props) => {
             className='grid grid-cols-1 md:grid-cols-2 gap-x-4 bg-slate-100'
           >
             <div>
-              <Link href={item.slug}>
+              <Link href={`istorijos/${item.slug}`}>
                 <img
                   className='w-full aspect-[5/6] object-cover'
                   src={item.picture}
