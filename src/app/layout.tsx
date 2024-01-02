@@ -26,6 +26,14 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <div className='w-full my-9 m-auto flex justify-center gap-x-10 text-center text-[#877964]'>
+          {/* <div>
+            <div>email: info@estaniulyte.com</div>
+          </div> */}
+          <div>
+            <a href='https://www.instagram.com/framed.by.evelina/'>Instagram</a>
+          </div>
+        </div>
       </body>
     </html>
   );

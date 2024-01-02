@@ -28,8 +28,34 @@ export const photoshootList = [
     types: ['personal'],
     pictures: [
       {
-        href: '',
+        src: 'https://drive.google.com/uc?export=download&id=1yeca-ww_4SP7FnHSqUn5RhdCBwVa4Sw0',
         alt: '',
+        width: 5,
+        height: 6,
+      },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=1ykBxlErxrN0yR3BRxOMveb6DzmIRSH44',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=1Ba2qCEwO5DC8BbKR1jI0dH5BCofr6WAY',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=1ubBozN5PCzMdEAOPibdKD6-Ab0s_RxfI',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=1PJG8wrYpLUlkwqqn3jiGodpkpLCKtta_',
+        alt: '',
+        width: 2,
+        height: 3,
       },
     ],
   },
@@ -43,8 +69,10 @@ export const photoshootList = [
     types: ['couple'],
     pictures: [
       {
-        href: '',
+        src: 'https://drive.google.com/uc?export=download&id=1dyTME0m3jl7O59gL_jMER0-9a1fw9k53',
         alt: '',
+        width: 8,
+        height: 9,
       },
     ],
   },
@@ -58,8 +86,10 @@ export const photoshootList = [
     types: ['personal'],
     pictures: [
       {
-        href: '',
+        src: 'https://drive.google.com/uc?export=download&id=1YZZ-luI9q_NQey0H_f2NgJOTFFRM5eyL',
         alt: '',
+        width: 5,
+        height: 6,
       },
     ],
   },
@@ -73,8 +103,10 @@ export const photoshootList = [
     types: ['personal'],
     pictures: [
       {
-        href: '',
+        src: 'https://drive.google.com/uc?export=download&id=18ScN1aVFDfH4UwTaSYNGqXaoBacqHczv',
         alt: '',
+        width: 5,
+        height: 6,
       },
     ],
   },
@@ -88,8 +120,10 @@ export const photoshootList = [
     types: ['personal'],
     pictures: [
       {
-        href: '',
+        src: 'https://drive.google.com/uc?export=download&id=1uCi7KrsGRFs4Q_OKy9ptT_zamU33n4CI',
         alt: '',
+        width: 5,
+        height: 6,
       },
     ],
   },
@@ -104,8 +138,10 @@ export const photoshootList = [
     types: ['product'],
     pictures: [
       {
-        href: '',
+        src: 'https://drive.google.com/uc?export=download&id=1zFA1kTSxuJdJzgyJHiQV0FVcMXtE7NDM',
         alt: '',
+        width: 5,
+        height: 6,
       },
     ],
   },
@@ -119,8 +155,10 @@ export const photoshootList = [
     types: ['family'],
     pictures: [
       {
-        href: '',
+        src: 'https://drive.google.com/uc?export=download&id=1V72m07BxFnO38pj5YJW1UnAsAHadPoMj',
         alt: '',
+        width: 5,
+        height: 6,
       },
     ],
   },
