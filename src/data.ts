@@ -39,12 +39,12 @@ export const photoshootList = [
         width: 2,
         height: 3,
       },
-      // {
-      //   src: 'https://drive.google.com/uc?export=download&id=1Ba2qCEwO5DC8BbKR1jI0dH5BCofr6WAY',
-      //   alt: '',
-      //   width: 2,
-      //   height: 3,
-      // },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=1Ba2qCEwO5DC8BbKR1jI0dH5BCofr6WAY',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
       // {
       //   src: 'https://drive.google.com/uc?export=download&id=1ubBozN5PCzMdEAOPibdKD6-Ab0s_RxfI',
       //   alt: '',
