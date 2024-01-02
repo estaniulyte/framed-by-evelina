@@ -69,10 +69,22 @@ export const photoshootList = [
     types: ['couple'],
     pictures: [
       {
-        src: 'https://drive.google.com/uc?export=download&id=1dyTME0m3jl7O59gL_jMER0-9a1fw9k53',
+        src: 'https://drive.google.com/uc?export=download&id=1GRDEYPnS5gGhzPbDCtD5PIppG0_lUNxg',
         alt: '',
-        width: 8,
-        height: 9,
+        width: 3,
+        height: 4,
+      },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=1gDENd8r7y1jDjXPWBfI5tV1UyekPMV1b',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=1lhZKtEiP2skrYaHUKzzbJeQcteLkQbBo',
+        alt: '',
+        width: 2,
+        height: 3,
       },
     ],
   },
