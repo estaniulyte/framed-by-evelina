@@ -75,6 +75,12 @@ export const photoshootList = [
         height: 4,
       },
       {
+        src: 'https://drive.google.com/uc?export=download&id=1oE2SghR490Bz-heElZFIbWkeb9uLH2pv',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
         src: 'https://drive.google.com/uc?export=download&id=1gDENd8r7y1jDjXPWBfI5tV1UyekPMV1b',
         alt: '',
         width: 2,
@@ -82,6 +88,36 @@ export const photoshootList = [
       },
       {
         src: 'https://drive.google.com/uc?export=download&id=1lhZKtEiP2skrYaHUKzzbJeQcteLkQbBo',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=182nBPKCqEKzBexOIGKP78YpFCPKcC5U-',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=1G_XgYxzOhEyJJXNtEOmguTbvV8L0DsnY',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=17Zw943etimhshIks5IyywvEYiFwno-Zc',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=1QHHXihQtcaeZJ1rW6XU3WQ-CwS1fFVYd',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=1bJ7T52M6euYn4lglMqwnC4AjSaBcQXDc',
         alt: '',
         width: 2,
         height: 3,
