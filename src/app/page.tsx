@@ -9,6 +9,8 @@ import { Autoplay, EffectFade } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-fade';
+import Faq from '@/components/Faq';
+import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 
 export default function Home() {
   return (
@@ -22,7 +24,7 @@ export default function Home() {
           alt='Photoshot pictures'
         />
       </div> */}
-      <div className='block lg:hidden '>
+      <div className='block lg:hidden'>
         <div className='absolute z-20 top-[70%] md:top-[80%] left-[4%] lg:left-[4%] 3xl:top-[85%] opacity-80'>
           <h1 className='text-5xl text-gray-100 uppercase tracking-widest font-semibold font-serif'>
             Tavo istorija.
@@ -100,6 +102,25 @@ export default function Home() {
               />
             </div>
           </SwiperSlide>
+          <SwiperSlide>
+            <div
+              className='h-screen before:absolute
+                before:inset-0
+                before:block
+                before:bg-gradient-to-r
+                before:from-black
+                before:to-gray-900
+                before:opacity-40
+                before:z-[20]'
+            >
+              <Image
+                className=' sm:m-auto w-full object-cover '
+                src='/vaiva-mobile.jpg'
+                fill={true}
+                alt='Photoshot pictures'
+              />
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
       <div
@@ -164,6 +185,10 @@ export default function Home() {
           </SwiperSlide>
         </Swiper>
       </div>
+      <MaxWidthWrapper>
+        <h1 className='text-3xl mt-8 mb-2'>D.U.K.</h1>
+        <Faq />
+      </MaxWidthWrapper>
       <div className='h-[100px] flex justify-center mt-10 '>COMMING SOON</div>
     </main>
   );
