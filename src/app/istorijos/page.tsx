@@ -22,8 +22,14 @@ export default function Gallery() {
       <MaxWidthWrapper>
         <div className='h-screen w-full'>
           <Image
-            className='w-full object-cover'
+            className='hidden lg:block w-full object-cover'
             src='/glory.jpg'
+            fill={true}
+            alt='Photoshot pictures'
+          />
+          <Image
+            className='block lg:hidden w-full object-cover'
+            src='/glory-mobile.jpg'
             fill={true}
             alt='Photoshot pictures'
           />
