@@ -78,6 +78,41 @@ export const photoshootList = [
     ],
   },
   {
+    id: 'g8o6djg3',
+    name: 'Violeta',
+    slug: 'violeta',
+    description: 'Šaltis ir apsnigtas miškas',
+    picture:
+      'https://drive.google.com/uc?export=download&id=1FUBjm66FT_pRA5UYkbe_mxDcjLbYSf_5',
+    types: ['personal'],
+    pictures: [
+      {
+        src: 'https://drive.google.com/uc?export=download&id=1DJtVeq_UHTgXfIhHGdRv_WSzH1PGGgdz',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=1FfokPde0FySZIDYHm__ExQMjq39Qpq-j',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=1a20qWZeUfSKUd-CBV3tUe1GpJ0ezWtoJ',
+        alt: '',
+        width: 3,
+        height: 4,
+      },
+      {
+        src: 'https://drive.google.com/uc?export=download&id=1ScQGs7CsspM409v46bhYeeMVGL2EuKWT',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+    ],
+  },
+  {
     id: 'mmd4n2bl',
     name: 'Karolina & Mantas',
     slug: 'karolina-mantas-rotonda',
