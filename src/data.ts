@@ -81,7 +81,7 @@ export const photoshootList = [
     id: 'g8o6djg3',
     name: 'Violeta',
     slug: 'violeta',
-    description: 'Šaltis ir apsnigtas miškas',
+    description: 'Šaltukas nesukliūdė pasikraut gerom emocijom',
     picture:
       'https://drive.google.com/uc?export=download&id=1FUBjm66FT_pRA5UYkbe_mxDcjLbYSf_5',
     types: ['personal'],
