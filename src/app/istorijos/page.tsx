@@ -31,6 +31,7 @@ export default function Gallery() {
             className='block lg:hidden w-full object-cover'
             src='/glory-mobile.jpg'
             fill={true}
+            quality={100}
             alt='Photoshot pictures'
           />
           <div className='absolute top-3/4 left-1/2 lg:left-[18%] -translate-x-1/2 -translate-y-1/2 opacity-90 text-center md:text-left z-10'>

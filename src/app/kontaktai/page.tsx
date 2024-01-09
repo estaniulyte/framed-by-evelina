@@ -20,12 +20,14 @@ export default function Contacts() {
             className='hidden lg:block w-full object-cover'
             src='/contacts.jpg'
             fill={true}
+            quality={100}
             alt='Photoshot pictures'
           />
           <Image
             className='block lg:hidden w-full object-cover'
             src='/contacts-mobile.jpg'
             fill={true}
+            quality={100}
             alt='Photoshot pictures'
           />
           <div className='absolute top-[55%] lg:top-[27%] left-[50%] lg:left-[52%] 3xl:left-[52%] -translate-x-1/2 -translate-y-1/2 opacity-90 text-center md:text-left z-10'>

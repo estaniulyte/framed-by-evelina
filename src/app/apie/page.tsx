@@ -19,12 +19,18 @@ export default function About() {
             before:z-[1]'
         >
           <Image
-            className='w-full object-cover'
+            className='hidden lg:block w-full object-cover'
             src='/me.jpg'
             fill={true}
+            quality={100}
             alt='Photographer portrait - girl holding polaroid and smiling widely'
-            placeholder='blur'
-            blurDataURL='/me-small.jpg'
+          />
+          <Image
+            className='block lg:hidden w-full object-cover'
+            src='/me-mobile.jpg'
+            quality={100}
+            fill={true}
+            alt='Photoshot pictures'
           />
           <div className='absolute top-[80%] lg:top-[30%] left-1/2 -translate-x-1/2 lg:-translate-x-0 lg:left-1/2 lg:right-[5%] opacity-90 text-center lg:text-left z-10'>
             <p className='text-2xl lg:text-3xl 3xl:text-4xl uppercase text-gray-300  pb-2 tracking-wider lg:text-right'>

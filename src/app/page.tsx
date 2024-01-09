@@ -60,6 +60,7 @@ export default function Home() {
                 className=' sm:m-auto w-full object-cover '
                 src='/book-mobile.jpg'
                 fill={true}
+                quality={100}
                 alt='Photoshot pictures'
               />
             </div>
@@ -79,6 +80,7 @@ export default function Home() {
                 className=' sm:m-auto w-full object-cover '
                 src='/vio-mobile.jpg'
                 fill={true}
+                quality={100}
                 alt='Photoshot pictures'
               />
             </div>
@@ -98,6 +100,7 @@ export default function Home() {
                 className=' sm:m-auto w-full object-cover '
                 src='/mocas-mobile.jpg'
                 fill={true}
+                quality={100}
                 alt='Photoshot pictures'
               />
             </div>
@@ -117,6 +120,7 @@ export default function Home() {
                 className=' sm:m-auto w-full object-cover '
                 src='/vaiva-mobile.jpg'
                 fill={true}
+                quality={100}
                 alt='Photoshot pictures'
               />
             </div>
@@ -159,6 +163,7 @@ export default function Home() {
                 className=' sm:m-auto w-full object-cover '
                 src='/carousel.jpg'
                 fill={true}
+                quality={100}
                 alt='Photoshot pictures'
               />
             </div>
@@ -169,6 +174,7 @@ export default function Home() {
                 className=' sm:m-auto w-full object-cover '
                 src='/carousel2.jpg'
                 fill={true}
+                quality={100}
                 alt='Photoshot pictures'
               />
             </div>
@@ -179,6 +185,7 @@ export default function Home() {
                 className=' sm:m-auto w-full object-cover '
                 src='/carousel3.jpg'
                 fill={true}
+                quality={100}
                 alt='Photoshot pictures'
               />
             </div>
