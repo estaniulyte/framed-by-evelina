@@ -77,7 +77,7 @@ export default function Home() {
             >
               <Image
                 className=' sm:m-auto w-full object-cover '
-                src='/couple-mobile.jpg'
+                src='/vio-mobile.jpg'
                 fill={true}
                 alt='Photoshot pictures'
               />
