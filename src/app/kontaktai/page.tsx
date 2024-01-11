@@ -22,7 +22,7 @@ export default function Contacts() {
             className='hidden lg:block w-full object-cover'
             src='/contacts.jpg'
             fill={true}
-            quality={100}
+            quality={90}
             alt='Photoshot pictures'
           />
           <Image
