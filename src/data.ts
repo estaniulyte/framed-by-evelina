@@ -142,14 +142,29 @@ export const photoshootList = [
     slug: 'linkedin-photoshoot',
     description: 'Kai reikia atsinaujint LinkedIn nuotrauką',
     picture:
-      'https://drive.google.com/uc?export=download&id=18ScN1aVFDfH4UwTaSYNGqXaoBacqHczv',
+      'https://github.com/estaniulyte/photos/blob/main/2023/erni/cover.jpg?raw=true',
     types: ['personal'],
     pictures: [
       {
-        src: 'https://drive.google.com/uc?export=download&id=18ScN1aVFDfH4UwTaSYNGqXaoBacqHczv',
+        id: 3,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2023/erni/3.jpg?raw=true',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
+        id: 1,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2023/erni/1.jpg?raw=true',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
+        id: 2,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2023/erni/2.jpg?raw=true',
         alt: '',
         width: 5,
-        height: 6,
+        height: 7,
       },
     ],
   },
