@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Button } from './ui/button';
+import Image from 'next/image';
 
 interface Item {
   name: string;
@@ -25,6 +26,14 @@ const PhotosessionGrid = ({ items }: Props) => {
           >
             <div>
               <Link href={`istorijos/${item.slug}`}>
+                {/* <Image
+                  className='w-full aspect-[5/6] object-cover'
+                  src={item.picture}
+                  height={200}
+                  width={100}
+                  quality={100}
+                  alt='Photoshot pictures'
+                /> */}
                 <img
                   className='w-full aspect-[5/6] object-cover'
                   src={item.picture}
