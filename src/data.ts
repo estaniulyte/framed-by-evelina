@@ -34,6 +34,34 @@ export const photoshootList = [
         width: 2,
         height: 3,
       },
+      {
+        id: 3,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-14-graz/small/3.jpg?raw=true',
+        alt: '',
+        width: 5,
+        height: 7,
+      },
+      {
+        id: 2,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-14-graz/small/2.jpg?raw=true',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+      {
+        id: 4,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-14-graz/small/4.jpg?raw=true',
+        alt: '',
+        width: 5,
+        height: 6,
+      },
+      {
+        id: 5,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-14-graz/small/5.jpg?raw=true',
+        alt: '',
+        width: 5,
+        height: 4,
+      },
     ],
   },
   {
@@ -247,7 +275,7 @@ export const photoshootList = [
   },
   {
     id: 'ur7m375d',
-    name: 'Ernestas',
+    name: 'Mini Linkedin fotosesija',
     slug: 'linkedin-photoshoot',
     description: 'Kai reikia atsinaujint LinkedIn nuotrauką',
     picture:
