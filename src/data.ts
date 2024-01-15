@@ -19,6 +19,24 @@ export const navItems = [
 
 export const photoshootList = [
   {
+    id: 'po5rdj30',
+    name: 'Pasivaiksčiojimas smagesnis su rogutėm',
+    slug: 'kupcik-seimyna',
+    description: 'Pasivaiksčiojimas smagesnis su rogutėm',
+    picture:
+      'https://github.com/estaniulyte/photos/blob/main/2024/01-14-graz/small/cover.jpg?raw=true',
+    types: ['family'],
+    pictures: [
+      {
+        id: 1,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-14-graz/small/1.jpg?raw=truehttps://github.com/estaniulyte/photos/blob/main/2024/01-14-graz/small/1.jpg?raw=true',
+        alt: '',
+        width: 2,
+        height: 3,
+      },
+    ],
+  },
+  {
     id: 'gq56djg0',
     name: 'Vaiva & Mikis',
     slug: 'vaiva-mikis',
