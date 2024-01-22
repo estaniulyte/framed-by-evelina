@@ -19,6 +19,31 @@ export const navItems = [
 
 export const photoshootList = [
   {
+    id: 'nn9kjj50',
+    name: 'Lukas & Heejin',
+    slug: 'lukas-heejin',
+    description: 'Meilės nušviesti',
+    picture:
+      'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/cover.jpg?raw=true',
+    types: ['couple'],
+    pictures: [
+      {
+        id: 1,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/1.jpg?raw=true',
+        alt: '',
+        width: 1292,
+        height: 1077,
+      },
+      {
+        id: 2,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/2.jpg?raw=true',
+        alt: '',
+        width: 1123,
+        height: 1292,
+      },
+    ],
+  },
+  {
     id: 'po5rdj30',
     name: 'Pasivaiksčiojimas smagesnis su rogutėm',
     slug: 'kupcik-seimyna',
