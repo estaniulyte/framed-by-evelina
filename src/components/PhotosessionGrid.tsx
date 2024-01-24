@@ -42,7 +42,7 @@ const PhotosessionGrid = ({ items }: Props) => {
             </div>
             <div className='w-[80%] py-8 md:py-0 text-center m-auto text-xl 3xl:text-3xl tracking-wider leading-7 flex-column'>
               <div>{item.description}</div>
-              <Link href={`istorijos/${item.slug}`}>
+              <Link href={`istorijos/${item.slug}`} replace={true}>
                 <Button
                   size='lg'
                   variant='default'
