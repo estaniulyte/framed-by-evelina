@@ -38,7 +38,32 @@ export const photoshootList = [
         id: 2,
         src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/2.jpg?raw=true',
         alt: '',
-        width: 1123,
+        width: 904,
+        height: 1292,
+      },
+    ],
+  },
+  {
+    id: 'mlg6ps9s0',
+    name: 'Krykštynos',
+    slug: 'krykstynos',
+    description: 'Mažutės krykstynos sausio vidurys',
+    picture:
+      'https://github.com/estaniulyte/photos/blob/main/2024/01-20-kry/smalled/cover.jpg?raw=true',
+    types: ['family'],
+    pictures: [
+      {
+        id: 1,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-20-kry/smalled/1.jpg?raw=true',
+        alt: '',
+        width: 940,
+        height: 1292,
+      },
+      {
+        id: 2,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-20-kry/smalled/2.jpg?raw=true',
+        alt: '',
+        width: 940,
         height: 1292,
       },
     ],
