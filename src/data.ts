@@ -47,7 +47,7 @@ export const photoshootList = [
     id: 'mlg6ps9s0',
     name: 'Krykštynos',
     slug: 'krykstynos',
-    description: 'Mažutės krykstynos sausio vidurys',
+    description: 'Mažutės krykštynos sausio vidury',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2024/01-20-kry/smalled/cover.jpg?raw=true',
     types: ['family'],
