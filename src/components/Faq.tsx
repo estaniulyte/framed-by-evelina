@@ -48,7 +48,10 @@ const Faq = () => {
           Ar atiduodate neredaguotas nuotraukas?
         </AccordionTrigger>
         <AccordionContent>
-          Ne, neredaguotų nuotraukų neatiduodu ^^
+          Ne, neredaguotų nuotraukų neatiduodu :) bet užtad duodu pasirinkti
+          Jums patiems kadrus, kuriuos norite gauti pakoreguotus. Kas užtikrina,
+          kad gausite tai kas jums patinka ir aš galiu susifokusuoti ties tuom
+          nuotraukom
         </AccordionContent>
       </AccordionItem>
     </Accordion>
