@@ -41,6 +41,28 @@ export default function Prices() {
             </h1>
           </div>
         </div>
+        <h1 className='text-3xl mt-8 mb-3'>Dovanų kuponai</h1>
+        <div className='flex flex-col sm:flex-row'>
+          <div>
+            <p className='text-xl pb-3'>
+              Siunčiu tiek fizinius, tiek online dovanų kuponus.
+            </p>
+            <p className='text-xl pb-3'>
+              Galite pasirinkti tam tikro tipo (poros, asmeninę, šeimos)
+              fotosesiją, ar fotosesija + studija. Jiegu reiktų kažko kito,
+              parašykite žinutę ;)
+            </p>
+            <p className='text-xl pb-3'>
+              Taip pat galite pridėti papildomą sveikinimą ant kupono ar
+              pasirinkti ant viršelio betkokią nuotrauką iš mano darbų. ♡
+            </p>
+          </div>
+          <img
+            className='block w-[100%] sm:w-[60%] object-cover'
+            src='/giftCard.jpg'
+            alt='Photoshot pictures'
+          />
+        </div>
         <h1 className='text-3xl mt-8 mb-2'>D.U.K.</h1>
         <Faq />
         <div className='h-[100px] flex justify-center mt-10 '>COMMING SOON</div>

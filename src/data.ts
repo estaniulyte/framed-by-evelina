@@ -45,9 +45,9 @@ export const photoshootList = [
   },
   {
     id: 'mlg6ps9s0',
-    name: 'Mažytės drąsuolės krykštynos sausio vidury',
+    name: 'Mažytės drąsuolės krykštynos',
     slug: 'krykstynos-sausis',
-    description: 'Mažytės drąsuolės krykštynos sausio vidury',
+    description: 'Mažytės drąsuolės krykštynos',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2024/01-20-kry/smalled/cover.jpg?raw=true',
     types: ['family'],

@@ -41,7 +41,23 @@ export default function About() {
             </h1>
           </div>
         </div>
-        <p className='pb-5 text-center uppercase'>COMING SOON</p>
+        <div className='flex flex-col gap-y-3 text-center md:text-left text-xl'>
+          <p>Malonu, kad užsukot ir žvalgotes! </p>
+          <p>
+            Čia šiek tiek norėčiau pristatyt save ir ką man reiškia fotografija.
+          </p>
+          <p>
+            Vertinu nuotraukuose emocijas, natūralumą, atsipalaidavimą kurio ir
+            sieksime mūsų sesijos metu.{' '}
+          </p>
+          <p>
+            Kodėl man tai svarbu? Po fotosesijos praleidžiu valandas koreguojant
+            nuotraukas ir man patinka pasigauti save besišypsančią ir
+            išgyvenančią per naują tas akimirkas kurias įpaveikslavau. Manau,
+            tai įprasmina mano darbą. Įamžinti momento šilumą, juoką, energiją.
+          </p>
+        </div>
+        <p className='py-5 text-center uppercase'>COMING SOON</p>
       </MaxWidthWrapper>
     </main>
   );
