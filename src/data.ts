@@ -20,6 +20,45 @@ export const navItems = [
 export const photoshootList = [
   {
     id: 'nn9kjj50',
+    name: 'Weeding!!',
+    slug: 'victoria-erik',
+    description: 'Weeding!!',
+    picture:
+      'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/cover.jpg?raw=true',
+    types: ['couple'],
+    pictures: [
+      {
+        id: 1,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/1.jpg?raw=true',
+        alt: '',
+        width: 916,
+        height: 1292,
+      },
+      {
+        id: 2,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/2.jpg?raw=true',
+        alt: '',
+        width: 957,
+        height: 1292,
+      },
+      {
+        id: 3,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/3.jpg?raw=true',
+        alt: '',
+        width: 1292,
+        height: 861,
+      },
+      {
+        id: 4,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/4.jpg?raw=true',
+        alt: '',
+        width: 1292,
+        height: 861,
+      },
+    ],
+  },
+  {
+    id: 'nn9kjj50',
     name: 'Lukas & Heejin',
     slug: 'lukas-heejin',
     description: 'Meilės nušviesti',
