@@ -35,10 +35,10 @@ export const photoshootList = [
         height: 1292,
       },
       {
-        id: 2,
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/2.jpg?raw=true',
+        id: 5,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/5.jpg?raw=true',
         alt: '',
-        width: 957,
+        width: 861,
         height: 1292,
       },
       {
@@ -47,6 +47,20 @@ export const photoshootList = [
         alt: '',
         width: 1292,
         height: 861,
+      },
+      {
+        id: 2,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/2.jpg?raw=true',
+        alt: '',
+        width: 957,
+        height: 1292,
+      },
+      {
+        id: 6,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/6.jpg?raw=true',
+        alt: '',
+        width: 1103,
+        height: 1292,
       },
       {
         id: 4,
