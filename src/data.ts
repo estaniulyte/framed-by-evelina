@@ -69,6 +69,20 @@ export const photoshootList = [
         width: 1292,
         height: 861,
       },
+      {
+        id: 7,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/7.jpg?raw=true',
+        alt: '',
+        width: 954,
+        height: 1292,
+      },
+      {
+        id: 8,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/8.jpg?raw=true',
+        alt: '',
+        width: 914,
+        height: 1292,
+      },
     ],
   },
   {
