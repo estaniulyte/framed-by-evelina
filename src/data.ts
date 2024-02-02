@@ -143,7 +143,6 @@ export const photoshootList = [
         width: 949,
         height: 1292,
       },
-
       {
         id: 2,
         src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/2.jpg?raw=true',
@@ -152,10 +151,10 @@ export const photoshootList = [
         height: 1292,
       },
       {
-        id: 3,
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/3.jpg?raw=true',
+        id: 12,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/12.jpg?raw=true',
         alt: '',
-        width: 1135,
+        width: 1029,
         height: 1292,
       },
       {
@@ -174,10 +173,10 @@ export const photoshootList = [
         height: 1292,
       },
       {
-        id: 6,
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/6.jpg?raw=true',
+        id: 14,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/14.jpg?raw=true',
         alt: '',
-        width: 761,
+        width: 986,
         height: 1292,
       },
       {
@@ -206,6 +205,34 @@ export const photoshootList = [
         src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/11.jpg?raw=true',
         alt: '',
         width: 866,
+        height: 1292,
+      },
+      {
+        id: 3,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/3.jpg?raw=true',
+        alt: '',
+        width: 1135,
+        height: 1292,
+      },
+      {
+        id: 13,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/13.jpg?raw=true',
+        alt: '',
+        width: 1292,
+        height: 1063,
+      },
+      {
+        id: 15,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/15.jpg?raw=true',
+        alt: '',
+        width: 1153,
+        height: 1292,
+      },
+      {
+        id: 16,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/16.jpg?raw=true',
+        alt: '',
+        width: 1077,
         height: 1292,
       },
     ],
