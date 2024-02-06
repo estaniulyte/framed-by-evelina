@@ -25,7 +25,9 @@ const Faq = () => {
       </AccordionItem>
       <AccordionItem value='item-3'>
         <AccordionTrigger>Ar važiuojate į kitus miestus?</AccordionTrigger>
-        <AccordionContent>Taip, bet už papildomą mokestį :))</AccordionContent>
+        <AccordionContent>
+          Taip, bet už papildomą mokestį :)) 20 eur / 100 km{' '}
+        </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-4'>
         <AccordionTrigger>

@@ -1,6 +1,10 @@
+'use client';
+
 import Link from 'next/link';
 import { Button } from './ui/button';
 import Image from 'next/image';
+
+import { usePathname } from 'next/navigation';
 
 interface Item {
   name: string;
@@ -16,6 +20,8 @@ interface Props {
 }
 
 const PhotosessionGrid = ({ items }: Props) => {
+  const pathname = usePathname();
+
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 gap-y-7 gap-x-7'>
       {items.map((item) => {
@@ -25,7 +31,7 @@ const PhotosessionGrid = ({ items }: Props) => {
             className='grid grid-cols-1 md:grid-cols-2 gap-x-4 bg-slate-100'
           >
             <div>
-              <Link href={`istorijos/${item.slug}`}>
+              <Link href={`${pathname}/${item.slug}`}>
                 {/* <Image
                   className='w-full aspect-[5/6] object-cover'
                   src={item.picture}
@@ -42,7 +48,7 @@ const PhotosessionGrid = ({ items }: Props) => {
             </div>
             <div className='w-[80%] py-8 md:py-0 text-center m-auto text-xl 3xl:text-3xl tracking-wider leading-7 flex-column'>
               <div>{item.description}</div>
-              <Link href={`istorijos/${item.slug}`} replace={true}>
+              <Link href={`${pathname}/${item.slug}`} replace={true}>
                 <Button
                   size='lg'
                   variant='default'
