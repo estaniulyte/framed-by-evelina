@@ -19,10 +19,28 @@ export const navItems = [
 
 export const photoshootList = [
   {
+    id: 'ka03op',
+    name: 'Popietė su Karolina',
+    slug: 'karolina-brazzi',
+    description: 'Popietė su Karolina',
+    picture:
+      'https://github.com/estaniulyte/photos/blob/main/2024/02-05-karo-braz/smalled/cover.jpg?raw=true',
+    types: ['personal'],
+    pictures: [
+      {
+        id: 1,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/02-05-karo-braz/smalled/cover.jpg?raw=true',
+        alt: '',
+        width: 5,
+        height: 6,
+      },
+    ],
+  },
+  {
     id: 'nn9kjj50',
-    name: 'Weeding!!',
+    name: 'Vestuvė studijoje!!',
     slug: 'victoria-erik',
-    description: 'Weeding!!',
+    description: 'Vestuvė studijoje!!',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/cover.jpg?raw=true',
     types: ['couple'],
