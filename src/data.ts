@@ -24,15 +24,22 @@ export const photoshootList = [
     slug: 'karolina-brazzi',
     description: 'Popietė su Karolina',
     picture:
-      'https://github.com/estaniulyte/photos/blob/main/2024/02-05-karo-braz/smalled/cover.jpg?raw=true',
+      'https://github.com/estaniulyte/photos/blob/main/2024/02-05-karo-braz/smalled/1.jpg?raw=true',
     types: ['personal'],
     pictures: [
       {
         id: 1,
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/02-05-karo-braz/smalled/cover.jpg?raw=true',
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/02-05-karo-braz/smalled/1.jpg?raw=true',
         alt: '',
         width: 5,
         height: 6,
+      },
+      {
+        id: 2,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/02-05-karo-braz/smalled/2.jpg?raw=true',
+        alt: '',
+        width: 979,
+        height: 1292,
       },
     ],
   },
