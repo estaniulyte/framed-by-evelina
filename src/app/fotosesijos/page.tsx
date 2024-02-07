@@ -19,10 +19,15 @@ export default function Prices() {
     >
       <MaxWidthWrapper>
         <div className='h-screen w-full'>
-          <Image
-            className='hidden lg:block w-full object-cover'
+          {/* <Image
+            className=' w-full object-cover'
             src='/fotosesijos.jpg'
             fill={true}
+            alt='Photoshot pictures'
+          /> */}
+          <img
+            className='absolute top-0 right-0 hidden overflow-hidden lg:block h-screen w-full object-cover '
+            src='https://github.com/estaniulyte/photos/blob/main/forpages/main/desktop-carousel/5.jpg?raw=true'
             alt='Photoshot pictures'
           />
           <Image

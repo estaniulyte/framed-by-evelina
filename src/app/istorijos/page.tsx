@@ -23,7 +23,7 @@ export default function Gallery() {
         <div className='h-screen w-full'>
           <img
             className='absolute top-0 right-0 w-full h-screen object-cover overflow-hidden ma-0 pa-0'
-            src='https://github.com/estaniulyte/photos/blob/main/forpages/stories.jpg?raw=true'
+            src='https://github.com/estaniulyte/photos/blob/main/forpages/stories-2.jpg?raw=true'
           ></img>
           {/* <Image
             className='hidden lg:block w-full object-cover'

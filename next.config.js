@@ -3,6 +3,7 @@ const nextConfig = {
   trailingSlash: true,
   images: {
     remotePatterns: [{ hostname: 'drive.google.com' }],
+    remotePatterns: [{ hostname: 'github.com' }],
   },
 };
 
