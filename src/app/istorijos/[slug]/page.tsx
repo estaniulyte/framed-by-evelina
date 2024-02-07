@@ -39,6 +39,7 @@ const Page = async ({ params }: PageProps) => {
           images={pictures}
           enableImageSelection={false}
           rowHeight={400}
+          margin={4}
         />
         <p className='py-5 text-center uppercase'>COMING SOON</p>
       </MaxWidthWrapper>

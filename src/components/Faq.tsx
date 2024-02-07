@@ -13,7 +13,10 @@ const Faq = () => {
           Ar galima patiems atsirinkti nuotraukas?
         </AccordionTrigger>
         <AccordionContent>
-          Taip, visada duodu atsirinkti patiems ;)
+          Taip, visada duodu atsirinkti patiems ;) Iš anksto susitariam kiek
+          nuotraukų pakoreguosiu, priklausomai nuo fotosesijos. Jei vis dėlto
+          norėtumete galiausiai daugiau kadrų, kiekvienas papildomas kadras
+          kainuoja 4e.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-2'>
