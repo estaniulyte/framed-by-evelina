@@ -41,6 +41,20 @@ export const photoshootList = [
         width: 979,
         height: 1292,
       },
+      {
+        id: 3,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/02-05-karo-braz/smalled/3.jpg?raw=true',
+        alt: '',
+        width: 957,
+        height: 1292,
+      },
+      {
+        id: 5,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/02-05-karo-braz/smalled/5.jpg?raw=true',
+        alt: '',
+        width: 881,
+        height: 1292,
+      },
     ],
   },
   {
