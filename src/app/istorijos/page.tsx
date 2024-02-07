@@ -21,7 +21,11 @@ export default function Gallery() {
     >
       <MaxWidthWrapper>
         <div className='h-screen w-full'>
-          <Image
+          <img
+            className='absolute top-0 right-0 w-full h-screen object-cover overflow-hidden ma-0 pa-0'
+            src='https://github.com/estaniulyte/photos/blob/main/forpages/stories.jpg?raw=true'
+          ></img>
+          {/* <Image
             className='hidden lg:block w-full object-cover'
             src='/glory.jpg'
             fill={true}
@@ -33,8 +37,8 @@ export default function Gallery() {
             fill={true}
             quality={100}
             alt='Photoshot pictures'
-          />
-          <div className='absolute top-3/4 left-1/2 lg:left-[18%] -translate-x-1/2 -translate-y-1/2 opacity-90 text-center md:text-left z-10'>
+          /> */}
+          <div className='absolute top-[20%] lg:top-3/4 left-1/2 lg:left-[18%] -translate-x-1/2 -translate-y-1/2 opacity-90 text-center md:text-left z-10'>
             <p className='text-xl uppercase text-gray-300 lg:text-3xl 3xl:text-4xl pb-2 tracking-widest'>
               Nuotraukos pilnos
             </p>
