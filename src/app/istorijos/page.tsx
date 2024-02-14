@@ -56,6 +56,7 @@ export default function Gallery() {
             <TabsTrigger value='personal'>Asmeninės</TabsTrigger>
             <TabsTrigger value='family'>Šeimos</TabsTrigger>
             <TabsTrigger value='products'>Produktai</TabsTrigger>
+            <TabsTrigger value='events'>Renginiai</TabsTrigger>
           </TabsList>
           <TabsContent value='all'>
             <PhotosessionGrid items={photoshootList} />
@@ -85,6 +86,13 @@ export default function Gallery() {
             <PhotosessionGrid
               items={photoshootList.filter((item) =>
                 item.types.includes('product')
+              )}
+            />
+          </TabsContent>
+          <TabsContent value='events'>
+            <PhotosessionGrid
+              items={photoshootList.filter((item) =>
+                item.types.includes('events')
               )}
             />
           </TabsContent>

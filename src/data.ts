@@ -20,6 +20,24 @@ export const navItems = [
 export const photoshootList = [
   {
     id: 'ka03op',
+    name: 'Heels Queens vakarėlis',
+    slug: 'heels-queens-vakarelis',
+    description: 'Heels Queens vakarėlis',
+    picture:
+      'https://github.com/estaniulyte/photos/blob/main/2024/02-10-heels/cover.jpg?raw=true',
+    types: ['personal', 'events'],
+    pictures: [
+      {
+        id: 1,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/02-10-heels/1.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1292,
+      },
+    ],
+  },
+  {
+    id: 'ka03op',
     name: 'Popietė su Karolina',
     slug: 'karolina-brazzi',
     description: 'Popietė su Karolina',
