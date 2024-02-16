@@ -118,7 +118,7 @@ export const photoshootList = [
     description: 'Vestuvė studijoje!!',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/cover.jpg?raw=true',
-    types: ['couple'],
+    types: ['couple', 'wedding'],
     pictures: [
       {
         id: 1,

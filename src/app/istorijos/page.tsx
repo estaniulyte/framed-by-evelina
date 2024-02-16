@@ -48,7 +48,7 @@ export default function Gallery() {
           </div>
         </div>
         <Tabs defaultValue='all' className='w-full mx-auto md:my-5 pb-5'>
-          <TabsList className='flex mb-7'>
+          <TabsList className='flex mb-7 flex-wrap'>
             <TabsTrigger value='all' className=''>
               Visos
             </TabsTrigger>
@@ -57,6 +57,7 @@ export default function Gallery() {
             <TabsTrigger value='family'>Šeimos</TabsTrigger>
             <TabsTrigger value='products'>Produktai</TabsTrigger>
             <TabsTrigger value='events'>Renginiai</TabsTrigger>
+            <TabsTrigger value='wedding'>Vestuvės</TabsTrigger>
           </TabsList>
           <TabsContent value='all'>
             <PhotosessionGrid items={photoshootList} />
@@ -93,6 +94,13 @@ export default function Gallery() {
             <PhotosessionGrid
               items={photoshootList.filter((item) =>
                 item.types.includes('events')
+              )}
+            />
+          </TabsContent>
+          <TabsContent value='wedding'>
+            <PhotosessionGrid
+              items={photoshootList.filter((item) =>
+                item.types.includes('wedding')
               )}
             />
           </TabsContent>
