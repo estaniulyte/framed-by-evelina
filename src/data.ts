@@ -17,6 +17,16 @@ export const navItems = [
   },
 ];
 
+export const propsList = [
+  {
+    name: 'Antkaklė su gėle',
+    price: '3e',
+    picture:
+      'https://static.pullandbear.net/2/photos//2024/V/0/1/p/7994/343/800/04/7994343800_2_1_8.jpg?t=1693318749396&imwidth=850',
+    types: ['accessories'],
+  },
+];
+
 export const photoshootList = [
   {
     id: 'ka03op',

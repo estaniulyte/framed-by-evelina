@@ -1,7 +1,5 @@
 'use client';
 
-import Image from 'next/image';
-
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { photoshootList } from '@/data';
@@ -25,19 +23,6 @@ export default function Gallery() {
             className='absolute top-0 right-0 w-full h-screen object-cover overflow-hidden ma-0 pa-0'
             src='https://github.com/estaniulyte/photos/blob/main/forpages/stories-2.jpg?raw=true'
           ></img>
-          {/* <Image
-            className='hidden lg:block w-full object-cover'
-            src='/glory.jpg'
-            fill={true}
-            alt='Photoshot pictures'
-          />
-          <Image
-            className='block lg:hidden w-full object-cover'
-            src='/glory-mobile.jpg'
-            fill={true}
-            quality={100}
-            alt='Photoshot pictures'
-          /> */}
           <div className='absolute top-[20%] lg:top-3/4 left-1/2 lg:left-[18%] -translate-x-1/2 -translate-y-1/2 opacity-90 text-center md:text-left z-10'>
             <p className='text-xl uppercase text-gray-300 lg:text-3xl 3xl:text-4xl pb-2 tracking-widest'>
               Nuotraukos pilnos

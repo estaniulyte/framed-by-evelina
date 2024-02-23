@@ -41,21 +41,57 @@ export default function About() {
             </h1>
           </div>
         </div>
-        <div className='flex flex-col gap-y-3 text-center md:text-left text-xl'>
-          <p>Malonu, kad užsukot ir žvalgotes! </p>
-          <p>
-            Čia šiek tiek norėčiau pristatyt save ir ką man reiškia fotografija.
-          </p>
-          <p>
-            Vertinu nuotraukuose emocijas, natūralumą, atsipalaidavimą kurio ir
-            sieksime mūsų sesijos metu.{' '}
-          </p>
-          <p>
-            Kodėl man tai svarbu? Po fotosesijos praleidžiu valandas koreguojant
-            nuotraukas ir man patinka pasigauti save besišypsančią ir
-            išgyvenančią per naują tas akimirkas kurias įpaveikslavau. Manau,
-            tai įprasmina mano darbą. Įamžinti momento šilumą, juoką, energiją.
-          </p>
+        <div className='hidden md:flex flex-col md:flex-row gap-y-3 md:max-w-[1500px] mx-auto align-center mt-10'>
+          <div className='md:flex md:justify-end md:pr-20'>
+            <img
+              className='h-auto w-full md:w-2/3 align-right object-cover'
+              src='https://github.com/estaniulyte/photos/blob/main/forpages/me.jpg?raw=true'
+            />
+          </div>
+          <div className='flex flex-grow h-full md:w-2/3 justify-center md:pt-20 flex-col gap-4 text-center md:text-left text-xl md:text-2xl'>
+            <p>Malonu, kad užsukot ir žvalgotes! </p>
+            <p>
+              Čia šiek tiek norėčiau pristatyt save ir ką man reiškia
+              fotografija.
+            </p>
+            <p>
+              Vertinu nuotraukuose emocijas, natūralumą, atsipalaidavimą kurio
+              ir sieksime mūsų sesijos metu.{' '}
+            </p>
+            <p>
+              Kodėl man tai svarbu? Po fotosesijos praleidžiu valandas
+              koreguojant nuotraukas ir man patinka pasigauti save besišypsančią
+              ir išgyvenančią per naują tas akimirkas kurias įpaveikslavau.
+              Manau, tai įprasmina mano darbą. Įamžinti momento šilumą, juoką,
+              energiją.
+            </p>
+          </div>
+        </div>
+        <div className='md:hidden flex flex-col md:flex-row gap-y-8 md:max-w-[1500px] mx-auto align-center mt-10'>
+          <div className='flex flex-grow h-full md:w-2/3 justify-center md:pt-20 flex-col gap-4 text-center md:text-left text-xl md:text-2xl'>
+            <p>Malonu, kad užsukot ir žvalgotes! </p>
+            <p>
+              Čia šiek tiek norėčiau pristatyt save ir ką man reiškia
+              fotografija.
+            </p>
+            <p>
+              Vertinu nuotraukuose emocijas, natūralumą, atsipalaidavimą kurio
+              ir sieksime mūsų sesijos metu.{' '}
+            </p>
+            <p>
+              Kodėl man tai svarbu? Po fotosesijos praleidžiu valandas
+              koreguojant nuotraukas ir man patinka pasigauti save besišypsančią
+              ir išgyvenančią per naują tas akimirkas kurias įpaveikslavau.
+              Manau, tai įprasmina mano darbą. Įamžinti momento šilumą, juoką,
+              energiją.
+            </p>
+          </div>
+          <div className='md:flex md:justify-end md:pr-20'>
+            <img
+              className='h-auto w-full md:w-2/3 align-right object-cover'
+              src='https://github.com/estaniulyte/photos/blob/main/forpages/me.jpg?raw=true'
+            />
+          </div>
         </div>
         <p className='py-5 text-center uppercase'>COMING SOON</p>
       </MaxWidthWrapper>
