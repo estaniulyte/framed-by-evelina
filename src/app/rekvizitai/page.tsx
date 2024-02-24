@@ -33,26 +33,86 @@ export default function Gallery() {
             </h1>
           </div>
         </div>
-        <h1>Grožis detalėse ir akcentuose</h1>
-        <h1>
+        <h1 className='py-3'>Grožis detalėse ir akcentuose</h1>
+        <h1 className='py-3'>
           Besiruošdama savo fotosesijai susiduriau su problemyte, kad neturiu
           jokių akcentų fotosesijai ir paskutinę minutę reikia bėgti į
           parduotuvę beieškant kažko, kas papildytų ar suteiktų mano įvaizdžiui
           šiokio tokio įdomumo
         </h1>
-        <h1>
-          Tad su džiaugsmu pristatau savo klientams nuomojamus rekvizitus,
-          skirtus papildyti įvaizdžiuis
+        <h1 className='py-3'>
+          Tad su džiaugsmu pristatau savo klientams nuomojamus rekvizitus ;))
         </h1>
+        <h1 className='text-2xl my-5'>Kainos</h1>
+        <div className='flex flex-col mb-5'>
+          <div className='-m-1.5 overflow-x-auto'>
+            <div className='p-1.5 w-full md:w-1/2 inline-block align-middle'>
+              <div className='overflow-hidden'>
+                <table className='min-w-full divide-y divide-gray-200 '>
+                  <thead>
+                    <tr>
+                      <th
+                        scope='col'
+                        className='px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase'
+                      >
+                        Kiekis
+                      </th>
+                      <th
+                        scope='col'
+                        className='px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase'
+                      >
+                        Kaina
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className='divide-y divide-gray-200 '>
+                    <tr>
+                      <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 '>
+                        1
+                      </td>
+                      <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 '>
+                        3€
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 '>
+                        2
+                      </td>
+                      <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 '>
+                        5€
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 '>
+                        3
+                      </td>
+                      <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 '>
+                        7€
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 '>
+                        4
+                      </td>
+                      <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 '>
+                        8€
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
         <Tabs defaultValue='all' className='w-full mx-auto md:my-5 pb-5'>
           <TabsList className='flex mb-7 flex-wrap'>
             <TabsTrigger value='all' className=''>
               Visi
             </TabsTrigger>
-            <TabsTrigger value='flowers'>Gėlės</TabsTrigger>
+            {/* <TabsTrigger value='flowers'>Gėlės</TabsTrigger> */}
             <TabsTrigger value='accessories'>Aksesuarai</TabsTrigger>
             <TabsTrigger value='dishes'>Indai</TabsTrigger>
-            <TabsTrigger value='clothes'>Drabužiai</TabsTrigger>
+            {/* <TabsTrigger value='clothes'>Drabužiai</TabsTrigger> */}
           </TabsList>
           <TabsContent value='all'>
             <PropsGrid items={propsList} />
@@ -80,7 +140,7 @@ export default function Gallery() {
             />
           </TabsContent>
         </Tabs>
-        <p className='pb-5 text-center uppercase'>MORE COMING SOON</p>
+        <p className='py-5 text-center uppercase'>MORE COMING SOON</p>
       </MaxWidthWrapper>
     </main>
   );

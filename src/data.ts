@@ -20,10 +20,27 @@ export const navItems = [
 export const propsList = [
   {
     name: 'Antkaklė su gėle',
-    price: '3e',
-    picture:
-      'https://static.pullandbear.net/2/photos//2024/V/0/1/p/7994/343/800/04/7994343800_2_1_8.jpg?t=1693318749396&imwidth=850',
+    pictures: [
+      {
+        src: 'https://static.pullandbear.net/2/photos//2024/V/0/1/p/7994/343/800/04/7994343800_2_1_8.jpg?t=1693318749396&imwidth=850',
+      },
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/forpages/me.jpg?raw=true',
+      },
+    ],
     types: ['accessories'],
+  },
+  {
+    name: 'Šampano taurės',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/15.jpg?raw=true',
+      },
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/23.jpg?raw=true',
+      },
+    ],
+    types: ['dishes'],
   },
 ];
 
@@ -138,8 +155,8 @@ export const photoshootList = [
         height: 1292,
       },
       {
-        id: 5,
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/5.jpg?raw=true',
+        id: 15,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/15.jpg?raw=true',
         alt: '',
         width: 861,
         height: 1292,
@@ -200,13 +217,7 @@ export const photoshootList = [
         width: 861,
         height: 1292,
       },
-      {
-        id: 11,
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/11.jpg?raw=true',
-        alt: '',
-        width: 861,
-        height: 1292,
-      },
+
       {
         id: 14,
         src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/14.jpg?raw=true',
@@ -219,6 +230,48 @@ export const photoshootList = [
         src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/12.jpg?raw=true',
         alt: '',
         width: 894,
+        height: 1292,
+      },
+      {
+        id: 16,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/16.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1292,
+      },
+      {
+        id: 17,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/17.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1292,
+      },
+      {
+        id: 18,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/18.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1292,
+      },
+      {
+        id: 19,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/19.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1292,
+      },
+      {
+        id: 20,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/20.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1292,
+      },
+      {
+        id: 21,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/21.jpg?raw=true',
+        alt: '',
+        width: 861,
         height: 1292,
       },
     ],
