@@ -64,7 +64,7 @@ export default function Prices() {
           </div>
           <img
             className='block w-[100%] sm:w-[60%] object-cover'
-            src='/giftCard.jpg'
+            src='https://github.com/estaniulyte/photos/blob/main/forpages/dovanukuponai.jpg?raw=true'
             alt='Photoshot pictures'
           />
         </div>

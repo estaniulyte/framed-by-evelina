@@ -37,7 +37,7 @@ export const propsList = [
         src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/15.jpg?raw=true',
       },
       {
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/23.jpg?raw=true',
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/24.jpg?raw=true',
       },
     ],
     types: ['dishes'],

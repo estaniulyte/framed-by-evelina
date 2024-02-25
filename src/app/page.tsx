@@ -58,6 +58,42 @@ export default function Home() {
             >
               <img
                 className=' sm:m-auto w-full object-cover h-screen'
+                src='https://github.com/estaniulyte/photos/blob/main/forpages/main/mobile-carousel/11.jpg?raw=true'
+                alt='Photoshot pictures'
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div
+              className='h-screen before:absolute
+    before:inset-0
+    before:block
+    before:bg-gradient-to-r
+    before:from-black
+    before:to-gray-900
+    before:opacity-40
+    before:z-[20]'
+            >
+              <img
+                className='sm:m-auto w-full object-cover h-screen'
+                src='https://github.com/estaniulyte/photos/blob/main/forpages/main/mobile-carousel/3.jpg?raw=true'
+                alt='Photoshot pictures'
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div
+              className='h-screen before:absolute
+    before:inset-0
+    before:block
+    before:bg-gradient-to-r
+    before:from-black
+    before:to-gray-900
+    before:opacity-40
+    before:z-[20]'
+            >
+              <img
+                className=' sm:m-auto w-full object-cover h-screen'
                 src='https://github.com/estaniulyte/photos/blob/main/forpages/main/mobile-carousel/9.jpg?raw=true'
                 alt='Photoshot pictures'
               />
@@ -81,24 +117,7 @@ export default function Home() {
               />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div
-              className='h-screen before:absolute
-    before:inset-0
-    before:block
-    before:bg-gradient-to-r
-    before:from-black
-    before:to-gray-900
-    before:opacity-40
-    before:z-[20]'
-            >
-              <img
-                className='sm:m-auto w-full object-cover h-screen'
-                src='https://github.com/estaniulyte/photos/blob/main/forpages/main/mobile-carousel/3.jpg?raw=true'
-                alt='Photoshot pictures'
-              />
-            </div>
-          </SwiperSlide>
+
           <SwiperSlide>
             <div
               className='h-screen before:absolute
@@ -212,6 +231,24 @@ export default function Home() {
             <div className='h-screen'>
               <img
                 className=' sm:m-auto h-screen w-full object-cover '
+                src='https://github.com/estaniulyte/photos/blob/main/forpages/main/desktop-carousel/18.jpg?raw=true'
+                alt='Photoshot pictures'
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='h-screen'>
+              <img
+                className=' sm:m-auto h-screen w-full object-cover '
+                src='https://github.com/estaniulyte/photos/blob/main/forpages/main/desktop-carousel/7.jpg?raw=true'
+                alt='Photoshot pictures'
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='h-screen'>
+              <img
+                className=' sm:m-auto h-screen w-full object-cover '
                 src='https://github.com/estaniulyte/photos/blob/main/forpages/main/desktop-carousel/3.jpg?raw=true'
                 alt='Photoshot pictures'
               />
@@ -236,15 +273,7 @@ export default function Home() {
               />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className='h-screen'>
-              <img
-                className=' sm:m-auto h-screen w-full object-cover '
-                src='https://github.com/estaniulyte/photos/blob/main/forpages/main/desktop-carousel/7.jpg?raw=true'
-                alt='Photoshot pictures'
-              />
-            </div>
-          </SwiperSlide>
+
           <SwiperSlide>
             <div className='h-screen'>
               <img
