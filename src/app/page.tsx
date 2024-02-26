@@ -58,7 +58,7 @@ export default function Home() {
             >
               <img
                 className=' sm:m-auto w-full object-cover h-screen'
-                src='https://github.com/estaniulyte/photos/blob/main/forpages/main/mobile-carousel/11.jpg?raw=true'
+                src='https://github.com/estaniulyte/photos/blob/main/forpages/main/mobile-carousel/12.jpg?raw=true'
                 alt='Photoshot pictures'
               />
             </div>
@@ -231,7 +231,7 @@ export default function Home() {
             <div className='h-screen'>
               <img
                 className=' sm:m-auto h-screen w-full object-cover '
-                src='https://github.com/estaniulyte/photos/blob/main/forpages/main/desktop-carousel/18.jpg?raw=true'
+                src='https://github.com/estaniulyte/photos/blob/main/forpages/main/desktop-carousel/19.jpg?raw=true'
                 alt='Photoshot pictures'
               />
             </div>
