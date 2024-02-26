@@ -22,10 +22,10 @@ export default function Gallery() {
         <div className='h-screen w-full'>
           <img
             className='absolute top-0 right-0 w-full h-screen object-cover overflow-hidden ma-0 pa-0'
-            src='https://github.com/estaniulyte/photos/blob/main/forpages/stories-2.jpg?raw=true'
+            src='https://github.com/estaniulyte/photos/blob/main/forpages/rekvizitaiDesk.jpg?raw=true'
           ></img>
-          <div className='absolute top-[20%] lg:top-3/4 left-1/2 lg:left-[18%] -translate-x-1/2 -translate-y-1/2 opacity-90 text-center md:text-left z-10'>
-            <p className='text-xl uppercase text-gray-300 lg:text-3xl 3xl:text-4xl pb-2 tracking-widest'>
+          <div className='absolute top-[60%] md:top-[20%] lg:top-3/4 left-1/2 lg:left-[18%] -translate-x-1/2 -translate-y-1/2 opacity-90 text-center md:text-left z-10'>
+            <p className='text-3xl uppercase text-gray-300 lg:text-3xl 3xl:text-5xl pb-2 tracking-widest'>
               Nuomojami
             </p>
             <h1 className='text-5xl font-semibold lg:text-6xl 3xl:text-7xl text-gray-200 uppercase tracking-widest font-serif'>
