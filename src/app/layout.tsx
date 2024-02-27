@@ -3,6 +3,9 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import { cn } from '@/lib/utils';
+import InstagramIcon from '@/components/icons/instagram';
+import FacebookIcon from '@/components/icons/facebook';
+import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -26,14 +29,24 @@ export default function RootLayout({
       >
         <Header />
         {children}
-        <div className='w-full my-9 m-auto flex justify-center gap-x-10 text-center text-[#877964]'>
-          {/* <div>
+        <MaxWidthWrapper>
+          <div className='w-full my-9 m-auto flex justify-between gap-x-10 text-center text-[#2F2E2B]'>
+            {/* <div>
             <div>email: info@estaniulyte.com</div>
+            
           </div> */}
-          <div>
-            <a href='https://www.instagram.com/framed.by.evelina/'>Instagram</a>
+            <div>©FramedbyEvelina {new Date().getFullYear()}</div>
+            <div className='flex gap-5'>
+              <a href='https://www.instagram.com/framed.by.evelina/'>
+                <InstagramIcon fillColor='#2F2E2B' size='25' />{' '}
+              </a>
+
+              <a href='https://www.facebook.com/framedbyevelinaa'>
+                <FacebookIcon fillColor='#2F2E2B' size='23' />
+              </a>
+            </div>
           </div>
-        </div>
+        </MaxWidthWrapper>
       </body>
     </html>
   );

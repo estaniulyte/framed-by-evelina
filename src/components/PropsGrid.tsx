@@ -33,7 +33,7 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 const PropsGrid = ({ items }: Props) => {
   return (
-    <div className='grid grid-cols-2 md:grid-cols-4 gap-y-7 gap-x-7'>
+    <div className='grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-y-7 gap-x-7'>
       {items.map((item) => {
         return (
           <div key={item.name} className='grid grid-cols-1'>
