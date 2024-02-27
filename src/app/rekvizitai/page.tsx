@@ -35,10 +35,9 @@ export default function Gallery() {
         </div>
         <h1 className='py-3'>Grožis detalėse ir akcentuose</h1>
         <h1 className='py-3'>
-          Besiruošdama savo fotosesijai susiduriau su problemyte, kad neturiu
+          Besiruošdama savo fotosesijai susiduriau su problema, kad neturiu
           jokių akcentų fotosesijai ir paskutinę minutę reikia bėgti į
-          parduotuvę beieškant kažko, kas papildytų ar suteiktų mano įvaizdžiui
-          šiokio tokio įdomumo
+          parduotuvę beieškant kažko, kas papildytų įvaizdį ar suteiktų įdomumo
         </h1>
         <h1 className='py-3'>
           Tad su džiaugsmu pristatau savo klientams nuomojamus rekvizitus ;))

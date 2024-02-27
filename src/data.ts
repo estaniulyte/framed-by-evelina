@@ -22,7 +22,7 @@ export const propsList = [
     name: 'Juoda antkaklė su gėle',
     pictures: [
       {
-        src: 'https://github.com/estaniulyte/photos/blob/main/forpages/me.jpg?raw=true',
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/juoda-gele-1.jpg?raw=true',
       },
       {
         src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/juoda-gele.jpg?raw=true',
@@ -34,10 +34,13 @@ export const propsList = [
     name: 'Šampano taurės',
     pictures: [
       {
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/15.jpg?raw=true',
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/taure-3.jpg?raw=true',
       },
       {
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/24.jpg?raw=true',
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/taure-2.jpg?raw=true',
+      },
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/taure-1.jpg?raw=true',
       },
     ],
     types: ['dishes'],
@@ -56,6 +59,9 @@ export const propsList = [
     pictures: [
       {
         src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/zydras-instax.jpg?raw=true',
+      },
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/zydras-instax-2.jpg?raw=true',
       },
     ],
     types: ['objects'],
