@@ -19,13 +19,13 @@ export const navItems = [
 
 export const propsList = [
   {
-    name: 'Antkaklė su gėle',
+    name: 'Juoda antkaklė su gėle',
     pictures: [
       {
-        src: 'https://static.pullandbear.net/2/photos//2024/V/0/1/p/7994/343/800/04/7994343800_2_1_8.jpg?t=1693318749396&imwidth=850',
+        src: 'https://github.com/estaniulyte/photos/blob/main/forpages/me.jpg?raw=true',
       },
       {
-        src: 'https://github.com/estaniulyte/photos/blob/main/forpages/me.jpg?raw=true',
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/juoda-gele.jpg?raw=true',
       },
     ],
     types: ['accessories'],
@@ -41,6 +41,24 @@ export const propsList = [
       },
     ],
     types: ['dishes'],
+  },
+  {
+    name: 'Baltas Instax fotoaparatas',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/baltas-instax.jpg?raw=true',
+      },
+    ],
+    types: ['objects'],
+  },
+  {
+    name: 'Žydras Instax fotoaparatas',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/zydras-instax.jpg?raw=true',
+      },
+    ],
+    types: ['objects'],
   },
 ];
 

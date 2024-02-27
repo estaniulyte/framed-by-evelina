@@ -112,6 +112,7 @@ export default function Gallery() {
             {/* <TabsTrigger value='flowers'>Gėlės</TabsTrigger> */}
             <TabsTrigger value='accessories'>Aksesuarai</TabsTrigger>
             <TabsTrigger value='dishes'>Indai</TabsTrigger>
+            <TabsTrigger value='objects'>Daiktai</TabsTrigger>
             {/* <TabsTrigger value='clothes'>Drabužiai</TabsTrigger> */}
           </TabsList>
           <TabsContent value='all'>
@@ -137,6 +138,11 @@ export default function Gallery() {
           <TabsContent value='clothes'>
             <PropsGrid
               items={propsList.filter((item) => item.types.includes('clothes'))}
+            />
+          </TabsContent>
+          <TabsContent value='objects'>
+            <PropsGrid
+              items={propsList.filter((item) => item.types.includes('objects'))}
             />
           </TabsContent>
         </Tabs>
