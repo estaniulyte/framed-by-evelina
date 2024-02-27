@@ -31,7 +31,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   return (
     <div className='embla aspect-[5/6] '>
       <div className='embla__viewport' ref={emblaRef}>
-        <div className='embla__container'>
+        <div className='embla__container aspect-[5/6]'>
           {slides.map((item, index) => (
             <img
               key={index}

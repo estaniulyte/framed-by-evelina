@@ -164,11 +164,11 @@ export const photoshootList = [
   },
   {
     id: 'nn9kjj50',
-    name: 'Vestuvė studijoje!!',
+    name: 'Victoria & Erik',
     slug: 'victoria-erik',
-    description: 'Vestuvė studijoje!!',
+    description: 'Victoria & Erik',
     picture:
-      'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/cover.jpg?raw=true',
+      'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/cover-2.jpg?raw=true',
     types: ['couple', 'wedding'],
     pictures: [
       {
