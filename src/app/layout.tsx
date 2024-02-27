@@ -30,7 +30,7 @@ export default function RootLayout({
         <Header />
         {children}
         <MaxWidthWrapper>
-          <div className='w-full my-9 m-auto flex justify-between gap-x-10 text-center text-[#2F2E2B]'>
+          <div className='w-[90%] md:w-full my-9 m-auto flex justify-between gap-x-10 text-center text-[#2F2E2B]'>
             {/* <div>
             <div>email: info@estaniulyte.com</div>
             
