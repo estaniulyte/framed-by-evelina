@@ -23,7 +23,7 @@ const PhotosessionGrid = ({ items }: Props) => {
   const pathname = usePathname();
 
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-7 gap-x-7'>
+    <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-y-7 gap-x-7'>
       {items.map((item) => {
         return (
           <div
