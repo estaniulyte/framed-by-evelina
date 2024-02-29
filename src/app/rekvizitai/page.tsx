@@ -26,7 +26,7 @@ export default function Gallery() {
           ></img>
           <div className='absolute top-[60%] md:top-[20%] lg:top-3/4 left-1/2 lg:left-[18%] -translate-x-1/2 -translate-y-1/2 opacity-90 text-center md:text-left z-10'>
             <p className='text-3xl uppercase text-gray-300 lg:text-3xl 3xl:text-5xl pb-2 tracking-widest'>
-              Nuomojami
+              Nemokami
             </p>
             <h1 className='text-5xl font-semibold lg:text-6xl 3xl:text-7xl text-gray-200 uppercase tracking-widest font-serif'>
               rekvizitai
@@ -40,10 +40,14 @@ export default function Gallery() {
           parduotuvę beieškant kažko, kas papildytų įvaizdį ar suteiktų įdomumo
         </h1>
         <h1 className='py-3'>
-          Tad su džiaugsmu pristatau savo klientams nuomojamus rekvizitus ;))
+          Tad su džiaugsmu pristatau savo klientams <b>nemokamai</b> nuomojamus
+          rekvizitus ;))
         </h1>
-        <h1 className='text-2xl my-5'>Kainos</h1>
-        <div className='flex flex-col mb-5'>
+        <h1 className='py-3'>
+          (Prieš fotosesiją tiktais praneškite ką man reiktų pasiimt)
+        </h1>
+        {/* <h1 className='text-2xl my-5'>Kainos</h1> */}
+        {/* <div className='flex flex-col mb-5'>
           <div className='-m-1.5 overflow-x-auto'>
             <div className='p-1.5 w-full md:w-1/2 inline-block align-middle'>
               <div className='overflow-hidden'>
@@ -102,7 +106,7 @@ export default function Gallery() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <Tabs defaultValue='all' className='w-full mx-auto md:my-5 pb-5'>
           <TabsList className='flex mb-7 flex-wrap'>
             <TabsTrigger value='all' className=''>
