@@ -66,6 +66,45 @@ export const propsList = [
     ],
     types: ['objects'],
   },
+  {
+    name: 'Rožiniai akiniai',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/akiniai-1.jpg?raw=true',
+      },
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/akiniai-2.jpg?raw=true',
+      },
+    ],
+    types: ['accessories'],
+  },
+  {
+    name: 'Medinė tortinė',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/medine-tortine-6.jpg?raw=true',
+      },
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/medine-tortine-7.jpg?raw=true',
+      },
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/medine-tortine-8.jpg?raw=true',
+      },
+    ],
+    types: ['dishes'],
+  },
+  {
+    name: 'Vyno taurės',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/vyno-taure-2.jpg?raw=true',
+      },
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/vyno-taure-1.jpg?raw=true',
+      },
+    ],
+    types: ['dishes'],
+  },
 ];
 
 export const photoshootList = [
