@@ -68,7 +68,6 @@ export default function Prices() {
             alt='Photoshot pictures'
           />
         </div>
-        <h1 className='text-3xl mt-8 mb-2'>D.U.K.</h1>
         <Faq />
         <div className='h-[100px] flex justify-center mt-10 '>COMMING SOON</div>
       </MaxWidthWrapper>
