@@ -50,7 +50,7 @@ const Faq = () => {
                 Per kiek laiko atiduodate nuotraukas?
               </AccordionTrigger>
               <AccordionContent>
-                Per dvi savaites. Dažniausiai net greičiau :)){' '}
+                Per 2-3 savaites, jei tai valandos fotosesija :)){' '}
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value='item-5'>
@@ -70,7 +70,9 @@ const Faq = () => {
                 Ne, neredaguotų nuotraukų neatiduodu :) bet užtad duodu
                 pasirinkti Jums patiems kadrus, kuriuos norite gauti
                 pakoreguotus. Kas užtikrina, kad gausite tai kas jums patinka ir
-                aš galiu susifokusuoti ties tuom nuotraukom
+                aš galiu susifokusuoti ties tuom nuotraukom. Jei visgi norisi
+                daugiau kadrų, visada galite pasirinkti papildomai po 4e už
+                nuotrauką.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
