@@ -105,6 +105,15 @@ export const propsList = [
     ],
     types: ['dishes'],
   },
+  {
+    name: 'Baltos tulpės (dirbtinės)',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/tulpes.jpg?raw=true',
+      },
+    ],
+    types: ['objects'],
+  },
 ];
 
 export const photoshootList = [
