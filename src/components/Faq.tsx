@@ -50,7 +50,8 @@ const Faq = () => {
                 Per kiek laiko atiduodate nuotraukas?
               </AccordionTrigger>
               <AccordionContent>
-                Per 2-3 savaites, jei tai valandos fotosesija :)){' '}
+                Per 2-3 savaites, po to kai atsirenkate nuotraukas (jei tai
+                valandos fotosesija) :)){' '}
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value='item-5'>
