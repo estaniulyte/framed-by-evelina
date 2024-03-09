@@ -6,7 +6,8 @@ import { cn } from '@/lib/utils';
 import InstagramIcon from '@/components/icons/instagram';
 import FacebookIcon from '@/components/icons/facebook';
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
-import { ContactUs } from '@/components/Contact';
+import MywedIcon from '@/components/icons/mywed';
+// import { ContactUs } from '@/components/Contact';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -45,7 +46,7 @@ export default function RootLayout({
                 href='https://www.instagram.com/framed.by.evelina/'
                 className='grid content-center'
               >
-                <InstagramIcon fillColor='#2F2E2B' size='29' />{' '}
+                <InstagramIcon fillColor='#2F2E2B' size='27' />{' '}
               </a>
 
               <a
@@ -54,21 +55,13 @@ export default function RootLayout({
               >
                 <FacebookIcon fillColor='#2F2E2B' size='25' />
               </a>
-
-              <div className='mywed_badge'>
-                <a
-                  title='Vestuvių fotografas Evelina Staniulytė (Vilnius, Lietuva) | MyWed'
-                  href='https://mywed.com/photographer/framedbyevelina/'
-                  target='_blank'
-                >
-                  <img
-                    width='27px'
-                    alt='Vestuvių fotografas Evelina Staniulytė (Vilnius, Lietuva) | MyWed'
-                    src='https://mywed.com/images/mywed-logo/Logo_Black.svg'
-                    className='group hover:fill-gray-500'
-                  />
-                </a>
-              </div>
+              <a
+                href='https://mywed.com/lt/photographer/framedbyevelina/'
+                className='mywed_badge grid content-center'
+                title='Vestuvių fotografas Evelina Staniulytė (Vilnius, Lietuva) | MyWed'
+              >
+                <MywedIcon fillColor='#2F2E2B' size='27' />
+              </a>
             </div>
           </div>
         </MaxWidthWrapper>
