@@ -6,6 +6,7 @@ import { cn } from '@/lib/utils';
 import InstagramIcon from '@/components/icons/instagram';
 import FacebookIcon from '@/components/icons/facebook';
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
+import { ContactUs } from '@/components/Contact';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -35,7 +36,10 @@ export default function RootLayout({
             <div>email: info@estaniulyte.com</div>
             
           </div> */}
-            <div>©FramedbyEvelina {new Date().getFullYear()}</div>
+            {/* <ContactUs /> */}
+            <div className='text-sm'>
+              @ Framed by Evelina {new Date().getFullYear()}
+            </div>
             <div className='flex gap-5'>
               <a href='https://www.instagram.com/framed.by.evelina/'>
                 <InstagramIcon fillColor='#2F2E2B' size='25' />{' '}
@@ -44,6 +48,21 @@ export default function RootLayout({
               <a href='https://www.facebook.com/framedbyevelinaa'>
                 <FacebookIcon fillColor='#2F2E2B' size='23' />
               </a>
+
+              <div className='mywed_badge'>
+                <a
+                  title='Vestuvių fotografas Evelina Staniulytė (Vilnius, Lietuva) | MyWed'
+                  href='https://mywed.com/photographer/framedbyevelina/'
+                  target='_blank'
+                >
+                  <img
+                    width='27px'
+                    alt='Vestuvių fotografas Evelina Staniulytė (Vilnius, Lietuva) | MyWed'
+                    src='https://mywed.com/images/mywed-logo/Logo_Black.svg'
+                    className='group hover:fill-gray-500'
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </MaxWidthWrapper>
