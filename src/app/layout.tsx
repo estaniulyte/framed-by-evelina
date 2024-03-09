@@ -40,13 +40,19 @@ export default function RootLayout({
             <div className='text-sm'>
               @ Framed by Evelina {new Date().getFullYear()}
             </div>
-            <div className='flex gap-5'>
-              <a href='https://www.instagram.com/framed.by.evelina/'>
-                <InstagramIcon fillColor='#2F2E2B' size='25' />{' '}
+            <div className='flex gap-5 align-middle content-center'>
+              <a
+                href='https://www.instagram.com/framed.by.evelina/'
+                className='grid content-center'
+              >
+                <InstagramIcon fillColor='#2F2E2B' size='29' />{' '}
               </a>
 
-              <a href='https://www.facebook.com/framedbyevelinaa'>
-                <FacebookIcon fillColor='#2F2E2B' size='23' />
+              <a
+                href='https://www.facebook.com/framedbyevelinaa'
+                className='grid content-center'
+              >
+                <FacebookIcon fillColor='#2F2E2B' size='25' />
               </a>
 
               <div className='mywed_badge'>
