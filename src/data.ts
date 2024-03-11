@@ -4,7 +4,7 @@ export const navItems = [
     href: '/istorijos',
   },
   {
-    name: 'Fotosesijos',
+    name: 'Paslaugos',
     href: '/fotosesijos',
   },
   {

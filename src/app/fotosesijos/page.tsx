@@ -4,6 +4,7 @@ import Faq from '@/components/Faq';
 
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Prices() {
   return (
@@ -46,7 +47,42 @@ export default function Prices() {
             </h1>
           </div>
         </div>
-        <h1 className='text-3xl mt-8 mb-3'>Dovanų kuponai</h1>
+        <h1 className='text-3xl mt-8 mb-3'>
+          PORŲ, ŠEIMŲ, ASMENINĖS FOTOSESIJOS
+        </h1>
+        <p>- fotografavimas 1 val.</p>
+        <p>- 15 retušuotų nuotraukų </p>
+        <p>- retušavimas iki 3 savaičių</p>
+        <p>- galimybė išsirinkti patinkančias nuotraukas</p>
+        <p>- profesionalus retušas</p>
+        <p>- kuro išlaidos Vilniuje rajone</p>
+        <p>- per valanda spėjama pakeisti 2-3 įvaizdžius</p>
+        <p>
+          - nemokami{' '}
+          <Link
+            href='/rekvizitai'
+            className='underline hover:cursor hover:text-primary-500'
+          >
+            aksesuarai ir daiktai iš čia
+          </Link>
+        </p>
+        <p className='pt-4'>
+          Jeigu fotosesijos pageidaujate <b>studijoje</b>, jos nuoma kainuoja
+          papildomai (dažniausiai 30 — 50 eur/val. priklausomai nuo studijos)
+        </p>
+        <p className='pt-3'>
+          Jei norėsis <b>daugiau nuotraukų</b>, visada galite atsirinkti
+          papildomai po 4e už nuotrauką.
+        </p>
+        <p className='pt-3'>
+          Jeigu fotosesija vyksta <b>už Vilniaus</b> rajono ribų, papildomai
+          skaičiuojamos kelionės išlaidos 20 eur / 100 km
+        </p>
+        <p className='text-xl pt-3 mb-3'>
+          <b>Kaina:</b> 70 eurų
+        </p>
+        <h1 className='text-3xl mt-10 mb-3'>DOVANŲ KUPONAI</h1>
+
         <div className='flex flex-col sm:flex-row'>
           <div>
             <p className='text-xl pb-3'>
