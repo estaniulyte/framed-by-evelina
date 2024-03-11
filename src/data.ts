@@ -122,6 +122,7 @@ export const photoshootList = [
     name: 'Penktadienio vakaras kitaip',
     slug: 'karolina-darius',
     description: 'Penktadienio vakaras kitaip',
+    date: '2024-03-01',
     description1:
       'Penktadienio vakarą Karolina ir Darius nusprendė pralesiti kitaip.',
     picture:
@@ -289,6 +290,7 @@ export const photoshootList = [
     name: 'Heels Queens vakarėlis',
     slug: 'heels-queens-vakarelis',
     description: 'Heels Queens vakarėlis',
+    date: '2024-02-10',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2024/02-10-heels/cover.jpg?raw=true',
     types: ['personal', 'events'],
@@ -426,6 +428,7 @@ export const photoshootList = [
     name: 'Popietė su Karolina',
     slug: 'karolina-brazzi',
     description: 'Popietė su Karolina',
+    date: '2024-02-05',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2024/02-05-karo-braz/smalled/1.jpg?raw=true',
     types: ['personal'],
@@ -500,6 +503,7 @@ export const photoshootList = [
     id: 'nn9kjj50',
     name: 'Vestuvės žiema taip pat gali būt labai šiltos',
     slug: 'victoria-erik',
+    date: '2024-01-27',
     description: 'Vestuvės žiema taip pat gali būt labai šiltos',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2024/01-27-vest/smalled/cover-3.jpg?raw=true',
@@ -703,6 +707,7 @@ export const photoshootList = [
     id: 'nn9kjj50',
     name: 'Lukas & Heejin',
     slug: 'lukas-heejin',
+    date: '2024-01-21',
     description: 'Meilės nušviesti',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2024/01-21-andr/smalled/cover.jpg?raw=true',
@@ -821,6 +826,7 @@ export const photoshootList = [
     name: 'Mažytės drąsuolės krykštynos',
     slug: 'krykstynos-sausis',
     description: 'Mažytės drąsuolės krykštynos',
+    date: '2024-02-20',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2024/01-20-kry/smalled/cover.jpg?raw=true',
     types: ['family'],
@@ -937,6 +943,7 @@ export const photoshootList = [
     name: 'Pasivaiksčiojimas smagesnis su rogutėm',
     slug: 'kupcik-seimyna',
     description: 'Pasivaiksčiojimas smagesnis su rogutėm',
+    date: '2024-01-14',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2024/01-14-graz/small/cover.jpg?raw=true',
     types: ['family'],
@@ -1159,6 +1166,7 @@ export const photoshootList = [
     name: 'Vaiva & Mikis',
     slug: 'vaiva-mikis',
     description: 'Vaivos ir Mikio šunybės',
+    date: '2023-12-29',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2023/miki/cover.jpg?raw=true',
     types: ['personal'],
@@ -1274,6 +1282,7 @@ export const photoshootList = [
     id: 'g8o6djg3',
     name: 'Violeta',
     slug: 'violeta',
+    date: '2024-01-07',
     description: 'Šaltukas nesukliūdė pasikraut gerom emocijom',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2024/01-07-vio/smalled/cover.jpg?raw=true',
