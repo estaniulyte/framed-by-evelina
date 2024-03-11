@@ -12,7 +12,7 @@ const Faq = () => {
       <div className='grid grid-flow-row-dense grid-cols-1 md:grid-cols-3 gap-4'>
         <div>
           <img
-            src='https://github.com/estaniulyte/photos/blob/main/forpages/duk/duk.jpg?raw=true'
+            src='https://github.com/estaniulyte/photos/blob/main/forpages/duk/IMG_1291-3.jpg?raw=true'
             className='object-cover w-[100%] h-96 md:w-96 md:h-96'
           ></img>
           <h1 className='text-3xl mt-8 mb-2 md:invisible'>D.U.K.</h1>
