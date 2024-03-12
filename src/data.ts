@@ -31,6 +31,15 @@ export const propsList = [
     types: ['accessories'],
   },
   {
+    name: 'Kreminė antkaklė su gėle',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/kremine-antkakle.jpg?raw=true',
+      },
+    ],
+    types: ['accessories'],
+  },
+  {
     name: 'Šampano taurės',
     pictures: [
       {
@@ -77,6 +86,21 @@ export const propsList = [
       },
     ],
     types: ['accessories'],
+  },
+  {
+    name: 'Mados žurnalai',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/vogue-1.jpg?raw=true',
+      },
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/vogue-3.jpg?raw=true',
+      },
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/vogue-2.jpg?raw=true',
+      },
+    ],
+    types: ['objects'],
   },
   {
     name: 'Medinė tortinė',
