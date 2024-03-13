@@ -36,6 +36,30 @@ export const propsList = [
       {
         src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/kremine-antkakle.jpg?raw=true',
       },
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/kremine-antkakle-1.png?raw=true',
+      },
+    ],
+    types: ['accessories'],
+  },
+  {
+    name: 'Juodos pirštinės',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/juodos-pirstines-2.png?raw=true',
+      },
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/juodos-pirstines-1.png?raw=true',
+      },
+    ],
+    types: ['accessories'],
+  },
+  {
+    name: 'Baltos pirštinės',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/baltos-pirstines-1.png?raw=true',
+      },
     ],
     types: ['accessories'],
   },
@@ -74,6 +98,81 @@ export const propsList = [
       },
     ],
     types: ['objects'],
+  },
+  {
+    name: 'Žiedas (reguliuojamas dydis)',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/ziedas-1.png?raw=true',
+      },
+    ],
+    types: ['accessories'],
+  },
+  {
+    name: 'Auskarai',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/auskarai-1.png?raw=true',
+      },
+    ],
+    types: ['accessories'],
+  },
+  {
+    name: 'Raudonas kaspinas',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/raudonas-kaspinas-1.png?raw=true',
+      },
+    ],
+    types: ['accessories'],
+  },
+  {
+    name: 'Kreminis kaspinas',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/kreminis-kaspinas-1.png?raw=true',
+      },
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/kreminis-kaspinas-2.png?raw=true',
+      },
+    ],
+    types: ['accessories'],
+  },
+  {
+    name: 'Skarelė',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/raistis.png?raw=true',
+      },
+    ],
+    types: ['accessories'],
+  },
+  {
+    name: 'Kaklo papuošalas iš karolių ir kaspino',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/antkakle.png?raw=true',
+      },
+    ],
+    types: ['accessories'],
+  },
+  {
+    name: 'Baltas kaklo papuošalas',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/antkakle-2.png?raw=true',
+      },
+    ],
+    types: ['accessories'],
+  },
+  {
+    name: 'Balti karoliai',
+    pictures: [
+      {
+        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/karoliai.png?raw=true',
+      },
+    ],
+    types: ['accessories'],
   },
   {
     name: 'Rožiniai akiniai',
