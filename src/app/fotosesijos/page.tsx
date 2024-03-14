@@ -50,15 +50,22 @@ export default function Prices() {
         <h1 className='text-3xl mt-8 mb-3'>
           PORŲ, ŠEIMŲ, ASMENINĖS FOTOSESIJOS
         </h1>
-        <p>- fotografavimas 1 val.</p>
-        <p>- 15 retušuotų nuotraukų </p>
-        <p>- retušavimas iki 3 savaičių</p>
-        <p>- galimybė išsirinkti patinkančias nuotraukas</p>
-        <p>- profesionalus retušas</p>
-        <p>- kuro išlaidos Vilniuje rajone</p>
-        <p>- per valanda spėjama pakeisti 2-3 įvaizdžius</p>
         <p>
-          - nemokami{' '}
+          - fotografavimas <b>1 val.</b>
+        </p>
+        <p>
+          - <b>15</b> retušuotų nuotraukų{' '}
+        </p>
+        <p>
+          - galimybė <b>išsirinkti patiems</b> patinkančias nuotraukas
+        </p>
+        <p>- atiduodu iki 3 savaičių (po nuotraukų atsirinkimo)</p>
+        <p>- profesionalus retušas</p>
+        <p>
+          - per valanda spėjama pakeisti <b>2-3 įvaizdžius</b>
+        </p>
+        <p>
+          - <b>nemokami</b>{' '}
           <Link
             href='/rekvizitai'
             className='underline hover:cursor hover:text-primary-500'
@@ -66,19 +73,24 @@ export default function Prices() {
             aksesuarai ir daiktai iš čia
           </Link>
         </p>
+        <p>- kuro išlaidos Vilniuje rajone</p>
+
         <p className='pt-4'>
-          Jeigu fotosesijos pageidaujate <b>studijoje</b>, jos nuoma kainuoja
-          papildomai (dažniausiai 30 — 50 eur/val. priklausomai nuo studijos)
+          <span className='text-red-500'>*</span> Jeigu fotosesijos pageidaujate{' '}
+          <b>studijoje</b>, jos nuoma kainuoja papildomai (dažniausiai 30 — 50
+          eur/val. priklausomai nuo studijos)
         </p>
         <p className='pt-3'>
-          Jei norėsis <b>daugiau nuotraukų</b>, visada galite atsirinkti
-          papildomai po 4e už nuotrauką.
+          <span className='text-red-500'>*</span> Jei norėsis{' '}
+          <b>daugiau nuotraukų</b>, visada galite atsirinkti papildomai po 4 eur
+          už nuotrauką.
         </p>
         <p className='pt-3'>
-          Jeigu fotosesija vyksta <b>už Vilniaus</b> rajono ribų, papildomai
-          skaičiuojamos kelionės išlaidos 20 eur / 100 km
+          <span className='text-red-500'>*</span> Jeigu fotosesija vyksta{' '}
+          <b>už Vilniaus</b> rajono ribų, papildomai skaičiuojamos kelionės
+          išlaidos 20 eur / 100 km
         </p>
-        <p className='text-xl pt-3 mb-3'>
+        <p className='text-2xl pt-3 mb-3'>
           <b>Kaina:</b> 70 eurų
         </p>
         <h1 className='text-3xl mt-10 mb-3'>DOVANŲ KUPONAI</h1>
