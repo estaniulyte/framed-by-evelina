@@ -74,7 +74,7 @@ export default function About() {
           </div>
         </div>
         <div className='md:hidden flex flex-col md:flex-row gap-y-8 md:max-w-[1500px] mx-auto align-center mt-10'>
-          <div className='flex flex-grow h-full md:w-2/3 justify-center md:pt-20 flex-col gap-4 text-center md:text-left text-xl md:text-2xl'>
+          <div className='flex flex-grow h-full md:w-2/3 justify-center md:pt-20 flex-col gap-4 text-center md:text-left text-md md:text-2xl'>
             <p>Malonu, kad užsukot ir žvalgotes! </p>
             <p>
               Čia šiek tiek norėčiau pristatyt save ir ką man reiškia
