@@ -241,6 +241,83 @@ export const propsList = [
 
 export const photoshootList = [
   {
+    id: 'pe3g4105',
+    name: 'Verslo fotosesija',
+    slug: 'karolina-verslo',
+    description: 'Verslo fotosesija',
+    date: '2024-03-17',
+    description1:
+      'Penktadienio vakarą Karolina ir Darius nusprendė pralesiti kitaip.',
+    picture:
+      'https://github.com/estaniulyte/photos/blob/main/2024/03-17-kara-verslo/cover-1.jpg?raw=true',
+    types: ['personal'],
+    pictures: [
+      {
+        id: 3,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-kara-verslo/3.jpg?raw=true',
+        alt: '',
+        width: 914,
+        height: 1291,
+      },
+      {
+        id: 2,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-kara-verslo/4.jpg?raw=true',
+        alt: '',
+        width: 886,
+        height: 1291,
+      },
+    ],
+  },
+  {
+    id: 'pe40r5',
+    name: 'Bomberiai',
+    slug: 'bomberiai',
+    description: 'Bomberiai',
+    date: '2024-03-17',
+    description1:
+      'Penktadienio vakarą Karolina ir Darius nusprendė pralesiti kitaip.',
+    picture:
+      'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/cover.jpg?raw=true',
+    types: ['product'],
+    pictures: [
+      {
+        id: 1,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/1.jpg?raw=true',
+        alt: '',
+        width: 1291,
+        height: 1076,
+      },
+      {
+        id: 4,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/4.jpg?raw=true',
+        alt: '',
+        width: 1143,
+        height: 1291,
+      },
+      {
+        id: 7,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/7.jpg?raw=true',
+        alt: '',
+        width: 993,
+        height: 1291,
+      },
+      {
+        id: 6,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/6.jpg?raw=true',
+        alt: '',
+        width: 1073,
+        height: 1291,
+      },
+      {
+        id: 5,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/5.jpg?raw=true',
+        alt: '',
+        width: 1286,
+        height: 1291,
+      },
+    ],
+  },
+  {
     id: 'ps43r5',
     name: 'Penktadienio vakaras kitaip',
     slug: 'karolina-darius',
