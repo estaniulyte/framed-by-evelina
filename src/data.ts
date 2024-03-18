@@ -315,6 +315,13 @@ export const photoshootList = [
         width: 1286,
         height: 1291,
       },
+      {
+        id: 8,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/8.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1291,
+      },
     ],
   },
   {
