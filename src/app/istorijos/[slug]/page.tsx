@@ -1,13 +1,8 @@
 'use client';
 
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
-import { photoshootList } from '@/data';
-import Image from 'next/image';
+import { photoshootList } from '@/photosessionData';
 import { Gallery } from 'react-grid-gallery';
-
-import LightGallery from 'lightgallery/react';
-import { LightGallerySettings } from 'lightgallery/lg-settings';
-import { useState } from 'react';
 
 interface PageProps {
   params: {

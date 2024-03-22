@@ -1,253 +1,136 @@
-export const navItems = [
-  {
-    name: 'Istorijos',
-    href: '/istorijos',
-  },
-  {
-    name: 'Paslaugos',
-    href: '/fotosesijos',
-  },
-  {
-    name: 'Apie mane',
-    href: '/apie',
-  },
-  {
-    name: 'Kontaktai',
-    href: '/kontaktai',
-  },
-];
-
-export const propsList = [
-  {
-    name: 'Juoda antkaklė su gėle',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/juoda-gele-1.jpg?raw=true',
-      },
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/juoda-gele.jpg?raw=true',
-      },
-    ],
-    types: ['accessories'],
-  },
-  {
-    name: 'Kreminė antkaklė su gėle',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/kremine-antkakle.jpg?raw=true',
-      },
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/kremine-antkakle-1.png?raw=true',
-      },
-    ],
-    types: ['accessories'],
-  },
-  {
-    name: 'Juodos pirštinės',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/juodos-pirstines-2.png?raw=true',
-      },
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/juodos-pirstines-1.png?raw=true',
-      },
-    ],
-    types: ['accessories'],
-  },
-  {
-    name: 'Baltos pirštinės',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/baltos-pirstines-1.png?raw=true',
-      },
-    ],
-    types: ['accessories'],
-  },
-  {
-    name: 'Šampano taurės',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/taure-3.jpg?raw=true',
-      },
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/taure-2.jpg?raw=true',
-      },
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/taure-1.jpg?raw=true',
-      },
-    ],
-    types: ['dishes'],
-  },
-  {
-    name: 'Baltas Instax fotoaparatas',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/baltas-instax.jpg?raw=true',
-      },
-    ],
-    types: ['objects'],
-  },
-  {
-    name: 'Žydras Instax fotoaparatas',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/zydras-instax.jpg?raw=true',
-      },
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/zydras-instax-2.jpg?raw=true',
-      },
-    ],
-    types: ['objects'],
-  },
-  {
-    name: 'Žiedas (reguliuojamas dydis)',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/ziedas-1.png?raw=true',
-      },
-    ],
-    types: ['accessories'],
-  },
-  {
-    name: 'Auskarai',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/auskarai-1.png?raw=true',
-      },
-    ],
-    types: ['accessories'],
-  },
-  {
-    name: 'Raudonas kaspinas',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/raudonas-kaspinas-1.png?raw=true',
-      },
-    ],
-    types: ['accessories'],
-  },
-  {
-    name: 'Kreminis kaspinas',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/kreminis-kaspinas-1.png?raw=true',
-      },
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/kreminis-kaspinas-2.png?raw=true',
-      },
-    ],
-    types: ['accessories'],
-  },
-  {
-    name: 'Skarelė',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/raistis.png?raw=true',
-      },
-    ],
-    types: ['accessories'],
-  },
-  {
-    name: 'Kaklo papuošalas iš karolių ir kaspino',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/antkakle.png?raw=true',
-      },
-    ],
-    types: ['accessories'],
-  },
-  {
-    name: 'Baltas kaklo papuošalas',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/antkakle-2.png?raw=true',
-      },
-    ],
-    types: ['accessories'],
-  },
-  {
-    name: 'Balti karoliai',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/karoliai.png?raw=true',
-      },
-    ],
-    types: ['accessories'],
-  },
-  {
-    name: 'Rožiniai akiniai',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/akiniai-1.jpg?raw=true',
-      },
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/akiniai-2.jpg?raw=true',
-      },
-    ],
-    types: ['accessories'],
-  },
-  {
-    name: 'Mados žurnalai',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/vogue-1.jpg?raw=true',
-      },
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/vogue-3.jpg?raw=true',
-      },
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/vogue-2.jpg?raw=true',
-      },
-    ],
-    types: ['objects'],
-  },
-  {
-    name: 'Medinė tortinė',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/medine-tortine-6.jpg?raw=true',
-      },
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/medine-tortine-7.jpg?raw=true',
-      },
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/medine-tortine-8.jpg?raw=true',
-      },
-    ],
-    types: ['dishes'],
-  },
-  {
-    name: 'Vyno taurės',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/vyno-taure-2.jpg?raw=true',
-      },
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/vyno-taure-1.jpg?raw=true',
-      },
-    ],
-    types: ['dishes'],
-  },
-  {
-    name: 'Baltos tulpės (dirbtinės)',
-    pictures: [
-      {
-        src: 'https://github.com/estaniulyte/photos/blob/main/rekvizitai/tulpes.jpg?raw=true',
-      },
-    ],
-    types: ['objects'],
-  },
-];
-
 export const photoshootList = [
+  {
+    id: 'ks7dw5',
+    name: 'Minimalistinė, tačiau labai šilta vestuvė',
+    slug: 'vestuve-heejin-lukas',
+    description: 'Minimalistinė, tačiau labai šilta vestuvė',
+    date: '2024-03-16',
+    description1:
+      'Penktadienio vakarą Karolina ir Darius nusprendė pralesiti kitaip.',
+    picture:
+      'https://github.com/estaniulyte/photos/blob/main/2024/03-16-h-a-wedding/cover.jpg?raw=true',
+    types: ['wedding', 'couple'],
+    pictures: [
+      {
+        id: 1,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-h-a-wedding/1.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1291,
+      },
+      {
+        id: 2,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-h-a-wedding/2.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1291,
+      },
+      {
+        id: 3,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-h-a-wedding/3.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1291,
+      },
+      {
+        id: 4,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-h-a-wedding/4.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1291,
+      },
+    ],
+  },
+  {
+    id: 'hj2m405pp',
+    name: 'Gretutė',
+    slug: 'gretute',
+    description: 'Gretutė',
+    date: '2024-03-16',
+    description1: '',
+    picture:
+      'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/cover-2.jpg?raw=true',
+    types: ['personal'],
+    pictures: [
+      {
+        id: 1,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/1.jpg?raw=true',
+        alt: '',
+        width: 829,
+        height: 1291,
+      },
+      {
+        id: 4,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/4.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1291,
+      },
+      {
+        id: 7,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/7.jpg?raw=true',
+        alt: '',
+        width: 1157,
+        height: 1291,
+      },
+      {
+        id: 5,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/5.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1291,
+      },
+      {
+        id: 6,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/6.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1291,
+      },
+      {
+        id: 3,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/3.jpg?raw=true',
+        alt: '',
+        width: 985,
+        height: 1291,
+      },
+      {
+        id: 10,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/10.jpg?raw=true',
+        alt: '',
+        width: 1076,
+        height: 1291,
+      },
+      {
+        id: 11,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/11.jpg?raw=true',
+        alt: '',
+        width: 906,
+        height: 1291,
+      },
+      {
+        id: 9,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/9.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1291,
+      },
+      // {
+      //   id: 2,
+      //   src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/2.jpg?raw=true',
+      //   alt: '',
+      //   width: 829,
+      //   height: 1291,
+      // },
+    ],
+  },
   {
     id: 'pe3g4105',
     name: 'Verslo fotosesija',
     slug: 'karolina-verslo',
     description: 'Verslo fotosesija',
     date: '2024-03-17',
-    description1:
-      'Penktadienio vakarą Karolina ir Darius nusprendė pralesiti kitaip.',
+    description1: '',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2024/03-17-kara-verslo/cover-1.jpg?raw=true',
     types: ['personal'],
@@ -268,62 +151,7 @@ export const photoshootList = [
       },
     ],
   },
-  {
-    id: 'pe40r5',
-    name: 'Bomberiai',
-    slug: 'bomberiai',
-    description: 'Bomberiai',
-    date: '2024-03-17',
-    description1:
-      'Penktadienio vakarą Karolina ir Darius nusprendė pralesiti kitaip.',
-    picture:
-      'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/cover.jpg?raw=true',
-    types: ['product'],
-    pictures: [
-      {
-        id: 1,
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/1.jpg?raw=true',
-        alt: '',
-        width: 1291,
-        height: 1076,
-      },
-      {
-        id: 4,
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/4.jpg?raw=true',
-        alt: '',
-        width: 1143,
-        height: 1291,
-      },
-      {
-        id: 7,
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/7.jpg?raw=true',
-        alt: '',
-        width: 993,
-        height: 1291,
-      },
-      {
-        id: 6,
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/6.jpg?raw=true',
-        alt: '',
-        width: 1073,
-        height: 1291,
-      },
-      {
-        id: 5,
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/5.jpg?raw=true',
-        alt: '',
-        width: 1286,
-        height: 1291,
-      },
-      {
-        id: 8,
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/8.jpg?raw=true',
-        alt: '',
-        width: 861,
-        height: 1291,
-      },
-    ],
-  },
+
   {
     id: 'ps43r5',
     name: 'Penktadienio vakaras kitaip',
@@ -489,6 +317,97 @@ export const photoshootList = [
         alt: '',
         width: 861,
         height: 1292,
+      },
+    ],
+  },
+  {
+    id: 'pe40r5',
+    name: 'Bomberiai',
+    slug: 'bomberiai',
+    description: 'Bomberiai',
+    date: '2024-03-17',
+    description1:
+      'Penktadienio vakarą Karolina ir Darius nusprendė pralesiti kitaip.',
+    picture:
+      'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/cover.jpg?raw=true',
+    types: ['product'],
+    pictures: [
+      {
+        id: 1,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/1.jpg?raw=true',
+        alt: '',
+        width: 1291,
+        height: 1076,
+      },
+      {
+        id: 4,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/4.jpg?raw=true',
+        alt: '',
+        width: 1143,
+        height: 1291,
+      },
+      {
+        id: 7,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/7.jpg?raw=true',
+        alt: '',
+        width: 993,
+        height: 1291,
+      },
+      {
+        id: 6,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/6.jpg?raw=true',
+        alt: '',
+        width: 1073,
+        height: 1291,
+      },
+      {
+        id: 5,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/5.jpg?raw=true',
+        alt: '',
+        width: 1286,
+        height: 1291,
+      },
+      {
+        id: 8,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/8.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1291,
+      },
+      {
+        id: 9,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/9.jpg?raw=true',
+        alt: '',
+        width: 934,
+        height: 1291,
+      },
+      {
+        id: 12,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/12.jpg?raw=true',
+        alt: '',
+        width: 1291,
+        height: 1291,
+      },
+      {
+        id: 13,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/13.jpg?raw=true',
+        alt: '',
+        width: 1120,
+        height: 1291,
+      },
+      {
+        id: 11,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/11.jpg?raw=true',
+        alt: '',
+        width: 1128,
+        height: 1291,
+      },
+      {
+        id: 14,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-17-bomberiai/14.jpg?raw=true',
+        alt: '',
+        width: 984,
+        height: 1291,
       },
     ],
   },

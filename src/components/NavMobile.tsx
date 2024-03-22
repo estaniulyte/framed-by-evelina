@@ -1,5 +1,5 @@
 import React from 'react';
-import { navItems } from '@/data';
+import { navItems } from '@/navData';
 
 const NavMobile = ({ navMobile }: { navMobile: boolean }) => {
   return (

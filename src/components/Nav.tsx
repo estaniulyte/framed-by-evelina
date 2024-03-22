@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { navItems } from '@/data';
+import { navItems } from '@/navData';
 
 interface Props {
   isActive: boolean;

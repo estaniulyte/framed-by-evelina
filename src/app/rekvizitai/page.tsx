@@ -2,8 +2,7 @@
 
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { photoshootList, propsList } from '@/data';
-import PhotosessionGrid from '@/components/PhotosessionGrid';
+import { propsList } from '@/propsData';
 import PropsGrid from '@/components/PropsGrid';
 
 export default function Gallery() {

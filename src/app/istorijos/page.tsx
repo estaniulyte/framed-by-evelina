@@ -2,7 +2,7 @@
 
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { photoshootList } from '@/data';
+import { photoshootList } from '@/photosessionData';
 import PhotosessionGrid from '@/components/PhotosessionGrid';
 
 export default function Gallery() {
@@ -38,11 +38,11 @@ export default function Gallery() {
               Visos
             </TabsTrigger>
             <TabsTrigger value='couples'>Poros</TabsTrigger>
+            <TabsTrigger value='wedding'>Vestuvės</TabsTrigger>
             <TabsTrigger value='personal'>Asmeninės</TabsTrigger>
             <TabsTrigger value='family'>Šeimos</TabsTrigger>
             <TabsTrigger value='products'>Produktai</TabsTrigger>
             <TabsTrigger value='events'>Renginiai</TabsTrigger>
-            <TabsTrigger value='wedding'>Vestuvės</TabsTrigger>
           </TabsList>
           <TabsContent value='all'>
             <PhotosessionGrid items={photoshootList} />
