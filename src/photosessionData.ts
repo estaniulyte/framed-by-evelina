@@ -49,7 +49,7 @@ export const photoshootList = [
     date: '2024-03-16',
     description1: '',
     picture:
-      'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/cover-2.jpg?raw=true',
+      'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/12.jpg?raw=true',
     types: ['personal'],
     pictures: [
       {
@@ -95,8 +95,8 @@ export const photoshootList = [
         height: 1291,
       },
       {
-        id: 10,
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/10.jpg?raw=true',
+        id: 13,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-gretute/13.jpg?raw=true',
         alt: '',
         width: 1076,
         height: 1291,
