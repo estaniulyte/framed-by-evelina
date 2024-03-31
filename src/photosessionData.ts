@@ -1,11 +1,11 @@
 export const photoshootList = [
   {
     id: 'ksehw1',
-    name: 'Jei kas ir žino kaip linksmintis - tai JOS #mergvakaris',
+    name: 'Girls just wanna have fun #mergvakaris',
     slug: 'mergvakaris-1',
-    description: 'Jei kas ir žino kaip linksmintis - tai JOS #mergvakaris',
+    description: 'Girls just wanna have fun #mergvakaris',
     date: '2024-03-29',
-    description1: 'Jei kas ir žino kaip linksmintis - tai JOS #mergvakaris',
+    description1: 'Girls just wanna have fun #mergvakaris',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2024/03-29-merg-siaul/cover.jpg?raw=true',
     types: ['events'],
