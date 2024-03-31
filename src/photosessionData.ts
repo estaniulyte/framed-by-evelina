@@ -25,6 +25,13 @@ export const photoshootList = [
         height: 1291,
       },
       {
+        id: 6,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-29-merg-siaul/6.jpg?raw=true',
+        alt: '',
+        width: 1291,
+        height: 861,
+      },
+      {
         id: 3,
         src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-29-merg-siaul/3.jpg?raw=true',
         alt: '',
@@ -45,16 +52,22 @@ export const photoshootList = [
         width: 1291,
         height: 861,
       },
+      {
+        id: 7,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-29-merg-siaul/7.jpg?raw=true',
+        alt: '',
+        width: 861,
+        height: 1291,
+      },
     ],
   },
   {
     id: 'ks7dw5',
-    name: 'Minimalistinė, tačiau labai šilta vestuvė',
+    name: 'Ankstyvo pavasario vestuvė',
     slug: 'vestuve-heejin-lukas',
-    description: 'Minimalistinė, tačiau labai šilta vestuvė',
+    description: 'Ankstyvo pavasario vestuvė',
     date: '2024-03-16',
-    description1:
-      'Penktadienio vakarą Karolina ir Darius nusprendė pralesiti kitaip.',
+    description1: '',
     picture:
       'https://github.com/estaniulyte/photos/blob/main/2024/03-16-h-a-wedding/cover.jpg?raw=true',
     types: ['wedding', 'couple'],
@@ -186,19 +199,18 @@ export const photoshootList = [
         height: 1291,
       },
       {
-        id: 19,
-        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-h-a-wedding/19.jpg?raw=true',
-        alt: '',
-        width: 1291,
-        height: 861,
-      },
-
-      {
         id: 21,
         src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-h-a-wedding/21.jpg?raw=true',
         alt: '',
         width: 861,
         height: 1291,
+      },
+      {
+        id: 19,
+        src: 'https://github.com/estaniulyte/photos/blob/main/2024/03-16-h-a-wedding/19.jpg?raw=true',
+        alt: '',
+        width: 1291,
+        height: 861,
       },
     ],
   },
