@@ -11,6 +11,7 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import Faq from '@/components/Faq';
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
+import { servicesList } from '@/servicesData';
 
 export default function Home() {
   return (
@@ -285,6 +286,37 @@ export default function Home() {
           </SwiperSlide>
         </Swiper>
       </div>
+      <MaxWidthWrapper>
+        <h1 className='text-4xl mt-8 mb-7'>Fotografavimo paslaugos</h1>
+        <div className='flex md:flex-row flex-col :cols-2 w-full gap-5 md:gap-0 md:w-[80%] mx-auto'>
+          <div className='flex-1'>
+            <div className='flex flex-col text-center items-center gap-5'>
+              {servicesList.row1.map((item) => {
+                return (
+                  <>
+                    <div className='text-3xl'>{item.name}</div>
+                    <img className='object-contain w-80' src={item.image}></img>
+                    <div className='w-[50%]'>{item.description}</div>
+                  </>
+                );
+              })}
+            </div>
+          </div>
+          <div className='flex-1'>
+            <div className='flex flex-col text-center items-center gap-5'>
+              {servicesList.row2.map((item) => {
+                return (
+                  <>
+                    <div className='text-3xl'>{item.name}</div>
+                    <img className='object-contain w-80' src={item.image}></img>
+                    <div className='w-[50%]'>{item.description}</div>
+                  </>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </MaxWidthWrapper>
       <MaxWidthWrapper>
         <Faq />
       </MaxWidthWrapper>
